@@ -39,7 +39,7 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Check git diff
       run: |
-        ls -la data/
+        ls -la data/*
         git status
 
     # Git commit + push, see https://github.com/github-actions-x/commit
