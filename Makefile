@@ -1,6 +1,8 @@
 BASEURL = https://svc90.cwa.gov.si/version/v1/
 COUNTRY = SI
 
+all: download analyze
+
 download:
 	mkdir -p data/$(COUNTRY) || true
 
