@@ -1,3 +1,3 @@
-2020/09/08 15:00:12 export file contains errors: 1 error occurred:
-	* keys #13: rolling interval start number is > 336h0m0s ago, want >= 2663946, got 2663568
+2020/09/08 16:00:32 export file contains errors: 1 error occurred:
+	* keys #13: rolling interval start number is > 336h0m0s ago, want >= 2663952, got 2663568
 
