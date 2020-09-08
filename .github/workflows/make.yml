@@ -24,6 +24,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: Set up Go 1.15
+      uses: actions/setup-go@v2
+      with:
+        go-version: 1.15.1
+      id: go
+
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
@@ -31,6 +37,11 @@ jobs:
       run: |
         sudo apt-get install jq
         jq --version
+
+    - name: Install export-analyzer
+      run: |
+        go install github.com/google/exposure-notifications-server/tools/export-analyzer
+        export-analyzer --help
 
     # Runs a single command using the runners shell
     - name: Run make
