@@ -38,7 +38,7 @@ type ExposureNotificationExport struct {
 
 type DailyKeyCount struct {
 	Date             string `json:"date" csv:"date"`
-	NewKeysCount     int    `json:"new_key_cout" csv:"new_key_cout"`
+	NewKeysCount     int    `json:"new_key_count" csv:"new_key_count"`
 	KeysInLast14Days int    `json:"keys_in_last_14_days" csv:"keys_in_last_14_days"`
 }
 
