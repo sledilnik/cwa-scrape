@@ -117,9 +117,9 @@ func getDailyKeyCounts() []DailyKeyCount {
 			KeysInLast14Days: sum,
 		})
 
-		date = date.Local().AddDate(0, 0, 1)
+		date = date.AddDate(0, 0, 1)
 		newKeysInLast14days = newKeysInLast14days.Next()
-		if date.After(time.Now()) {
+		if date.After(time.Now().In(loc)) {
 			break
 		}
 	}

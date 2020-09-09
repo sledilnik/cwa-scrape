@@ -5,69 +5,64 @@
     "keys_in_last_14_days": 1
   },
   {
-    "date": "2020-08-10",
-    "new_key_cout": 1,
-    "keys_in_last_14_days": 2
-  },
-  {
     "date": "2020-08-11",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 2
+    "keys_in_last_14_days": 1
   },
   {
     "date": "2020-08-12",
     "new_key_cout": 9,
-    "keys_in_last_14_days": 11
+    "keys_in_last_14_days": 10
   },
   {
     "date": "2020-08-13",
     "new_key_cout": 1,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-14",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-15",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-16",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-17",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-18",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-19",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-20",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-21",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-22",
     "new_key_cout": 0,
-    "keys_in_last_14_days": 12
+    "keys_in_last_14_days": 11
   },
   {
     "date": "2020-08-23",
@@ -152,6 +147,11 @@
   {
     "date": "2020-09-08",
     "new_key_cout": 44,
+    "keys_in_last_14_days": 124
+  },
+  {
+    "date": "2020-09-09",
+    "new_key_cout": 0,
     "keys_in_last_14_days": 124
   }
 ]
