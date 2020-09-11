@@ -16,6 +16,8 @@ var (
 	path = flag.String("path", "data/SI", "path to the export json files")
 )
 
+const isoDateFormat = "2006-01-02"
+
 // ExposureNotificationExport was auto-generated using https://mholt.github.io/json-to-go/
 type ExposureNotificationExport struct {
 	StartTimestamp int    `json:"start_timestamp"`
@@ -96,7 +98,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 
 	date := startDate
 	for {
-		dateIso := date.Format("2006-01-02")
+		dateIso := date.Format(isoDateFormat)
 
 		fmt.Println("Counting keys on:", dateIso)
 
@@ -151,4 +153,5 @@ func main() {
 	dailyKeyCounts := getDailyKeyCounts()
 	writeJSON(dailyKeyCounts, *path+"/keycount.json")
 	writeCSV(dailyKeyCounts, *path+"/keycount.csv")
+	writeChart(dailyKeyCounts, *path+"/keycount.png")
 }
