@@ -1,0 +1,40 @@
+{
+  "start_timestamp": 1599868800,
+  "end_timestamp": 1599955200,
+  "region": "SI",
+  "batch_num": 1,
+  "batch_size": 1,
+  "signature_infos": [
+    {
+      "verification_key_version": "v1",
+      "verification_key_id": "293",
+      "signature_algorithm": "1.2.840.10045.4.3.2"
+    }
+  ],
+  "keys": [
+    {
+      "key_data": "GUhTWOq8D9vRZCD6pVE0pw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2666016,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "U8mR4w5cPdZrngH/4lUOAQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2666160,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "tzj6iF39vzzaSjGufTbf8Q==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2665872,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "2Xf1kDA4u+8IbejctbHtGw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2666304,
+      "rolling_period": 144
+    }
+  ]
+}
