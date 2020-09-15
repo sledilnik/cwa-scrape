@@ -1,17 +1,14 @@
 BASEURL = https://svc90.cwa.gov.si/version/v1/
 COUNTRY = SI
+TODAY=$$(date --date="today" --iso-8601 2>&- || gdate --date="today" --iso-8601)
+YESTERDAY=$$(date --date="yesterday" --iso-8601 2>&- || gdate --date="yesterday" --iso-8601)
 
 all: download analyze
 
 download:
 	mkdir -p data/$(COUNTRY) || true
-
-	for DAY in $$(curl -s $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date | jq -r '.[]');\
-	do \
-		echo -n 'Downloading $$DAY:	';\
-		wget $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date/$$DAY -O data/$(COUNTRY)/$$DAY.zip;\
-	done
-
+	wget $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date/$(TODAY) -O data/$(COUNTRY)/$(TODAY).zip
+	wget $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date/$(YESTERDAY) -O data/$(COUNTRY)/$(YESTERDAY).zip
 	wget $(BASEURL)configuration/country/$(COUNTRY)/app_config -O data/$(COUNTRY)/app_config.zip
 
 analyze:
