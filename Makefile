@@ -10,7 +10,7 @@ download:
 	for DAY in $$(curl -s $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date | jq -r '.[]');\
 	do \
 		echo "Checking if $$DAY is after $(EARLYDATE):	";\
-		if [[ "$$DAY" > "$(EARLYDATE)" ]];\
+		if [ "$$DAY" \> "$(EARLYDATE)" ];\
 		then\
 			echo "Downloading $$DAY:	";\
 			wget $(BASEURL)diagnosis-keys/country/$(COUNTRY)/date/$$DAY -O data/$(COUNTRY)/$$DAY.zip;\
