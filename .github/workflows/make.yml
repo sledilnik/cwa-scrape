@@ -52,6 +52,7 @@ jobs:
       run: |
         ls -la data/*
         git status
+        git diff
 
     # Git commit + push, see https://github.com/github-actions-x/commit
     - name: Publish changes to git
