@@ -17,6 +17,12 @@
       "transmission_risk_level": 6,
       "rolling_start_interval_number": 2666880,
       "rolling_period": 144
+    },
+    {
+      "key_data": "QeAQDbPGIVsWnxcvG3+mNw==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2666880,
+      "rolling_period": 144
     }
   ]
 }
