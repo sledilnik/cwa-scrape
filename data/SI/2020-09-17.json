@@ -13,6 +13,12 @@
   ],
   "keys": [
     {
+      "key_data": "WoO91fIxBwUbdGXqYy6ERQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2667024,
+      "rolling_period": 144
+    },
+    {
       "key_data": "enNwYvVsGCk064g+qSQtpQ==",
       "transmission_risk_level": 5,
       "rolling_start_interval_number": 2667024,
