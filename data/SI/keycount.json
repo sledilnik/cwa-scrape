@@ -203,5 +203,10 @@
     "date": "2020-09-19",
     "new_key_count": 13,
     "keys_in_last_14_days": 377
+  },
+  {
+    "date": "2020-09-20",
+    "new_key_count": 0,
+    "keys_in_last_14_days": 377
   }
 ]
