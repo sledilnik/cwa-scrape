@@ -25,9 +25,27 @@
       "rolling_period": 144
     },
     {
+      "key_data": "Hwp6Jw/Tf3CnV60fTYK5Pg==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2667456,
+      "rolling_period": 144
+    },
+    {
       "key_data": "NBqOeZhanlNr5VfuZ48U2w==",
       "transmission_risk_level": 5,
       "rolling_start_interval_number": 2666880,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Omc0HrzVzlnHaB2LvZSLRA==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2666592,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Qzizy0SR43vTRK5RxpKA0g==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2666736,
       "rolling_period": 144
     },
     {
@@ -37,9 +55,33 @@
       "rolling_period": 144
     },
     {
+      "key_data": "VcYh6CrOE2SLV9V7OqRRrw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2666880,
+      "rolling_period": 144
+    },
+    {
       "key_data": "V9ATAcKX9n19t9ST7Kle4w==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2666592,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Z1s3BmKN2NIzJb26pH4pZQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2666448,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "jjfIlbQoc/ZSk+H5nMCBEw==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2667312,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "jkMkNtSEapULtYbE0DX7GQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2667024,
       "rolling_period": 144
     },
     {
@@ -56,6 +98,12 @@
     },
     {
       "key_data": "0wBIWIaU9ctuyN/Qtm+mdg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2667168,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "30bNUr0HyZH+nPnQL3sRcw==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2667168,
       "rolling_period": 144
