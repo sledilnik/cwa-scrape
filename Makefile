@@ -20,7 +20,7 @@ download:
 	wget $(BASEURL)configuration/country/$(COUNTRY)/app_config -O data/$(COUNTRY)/app_config.zip
 
 analyze:
-	# go install github.com/google/exposure-notifications-server/tools/export-analyzer
+	go install github.com/google/exposure-notifications-server/tools/export-analyzer
 	for file in $$(ls data/$(COUNTRY)/????-??-??.zip);\
 	do \
 		BASENAME=$$(basename $$file .zip);\

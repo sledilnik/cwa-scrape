@@ -38,11 +38,6 @@ jobs:
         sudo apt-get install jq
         jq --version
 
-    - name: Install export-analyzer
-      run: |
-        go install github.com/google/exposure-notifications-server/tools/export-analyzer
-        export-analyzer --help
-
     # Runs a single command using the runners shell
     - name: Run make
       run: make
