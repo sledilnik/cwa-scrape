@@ -459,8 +459,6 @@ github.com/golang/snappy v0.0.1/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEW
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0 h1:0udJVsspx3VBr5FwtLhQQtuAsVc79tTq0ocGIPAU6qo=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
-github.com/google/exposure-notifications-server v0.8.0 h1:6cVoprJWgsKK22HXcrF2xp4igpC7s5J14RJ0EWLREkg=
-github.com/google/exposure-notifications-server v0.8.0/go.mod h1:Ff7UTvj8RypnW4N/qtrp80vzOL1fkhUqzsO6sf698z4=
 github.com/google/exposure-notifications-server v0.8.2 h1:m5Z0CRMPceNgefRhOT8KD4no9lQVQD7PKptzI4c02ZQ=
 github.com/google/exposure-notifications-server v0.8.2/go.mod h1:Ff7UTvj8RypnW4N/qtrp80vzOL1fkhUqzsO6sf698z4=
 github.com/google/flatbuffers v1.11.0/go.mod h1:1AeVuKshWv4vARoZatz6mlQ0JxURH0Kv5+zNeJKJCa8=
