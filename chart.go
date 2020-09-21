@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"os"
 	"time"
 
@@ -23,6 +24,46 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		newKeys14Days = append(newKeys14Days, float64(v.KeysInLast14Days))
 	}
 
+	activeKeysSeries := chart.TimeSeries{
+		Name:    "Aktivni ključi (14 dni)",
+		XValues: dates,
+		YValues: newKeys14Days,
+		YAxis:   chart.YAxisPrimary,
+		Style: chart.Style{
+			Show:        true,
+			StrokeWidth: 2,
+			StrokeColor: drawing.Color{R: 248, G: 198, B: 45, A: 255},
+			FillColor:   drawing.Color{R: 252, G: 244, B: 213, A: 255},
+			// FillColor:   drawing.Color{R: 248, G: 198, B: 45, A: 50},
+		},
+	}
+
+	newKeysSeries := chart.TimeSeries{
+		Name:    "Novi ključi (na dan)",
+		XValues: dates,
+		YValues: newKeys,
+		YAxis:   chart.YAxisSecondary,
+		Style: chart.Style{
+			Show:        true,
+			StrokeWidth: 2,
+			StrokeColor: drawing.Color{R: 78, G: 126, B: 245, A: 255},
+			FillColor:   drawing.Color{R: 78, G: 126, B: 245, A: 50},
+		},
+	}
+
+	newKeysMovingAverageSeries := chart.SMASeries{
+		Period:      7,
+		InnerSeries: newKeysSeries,
+		YAxis:       chart.YAxisSecondary,
+		Name:        "Novi ključi (povprečje 7 dni)",
+		Style: chart.Style{
+			Show:            true,
+			StrokeWidth:     1,
+			StrokeDashArray: []float64{5, 5},
+			StrokeColor:     drawing.Color{R: 78, G: 126, B: 245, A: 255},
+		},
+	}
+
 	graph := chart.Chart{
 		Width:      1000,
 		Height:     600,
@@ -41,38 +82,30 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 			Name:      "Aktivni ključi (14 dni)",
 			NameStyle: chart.StyleShow(),
 			Style:     chart.StyleShow(),
+			ValueFormatter: func(v interface{}) string {
+				if vf, isFloat := v.(float64); isFloat {
+					return fmt.Sprintf("%0.0f", vf)
+				}
+				return ""
+			},
 		},
 		YAxisSecondary: chart.YAxis{
-			Name:      "Novi ključi (na dan)",
+			Name:      "Novi ključi",
 			NameStyle: chart.StyleShow(),
 			Style:     chart.StyleShow(),
+			ValueFormatter: func(v interface{}) string {
+				if vf, isFloat := v.(float64); isFloat {
+					return fmt.Sprintf("%0.0f", vf)
+				}
+				return ""
+			},
 		},
 
 		Series: []chart.Series{
-			chart.TimeSeries{
-				Name:    "Aktivni ključi (14 dni)",
-				XValues: dates,
-				YValues: newKeys14Days,
-				YAxis:   chart.YAxisPrimary,
-				Style: chart.Style{
-					Show:        true,
-					StrokeWidth: 2,
-					StrokeColor: drawing.Color{R: 248, G: 198, B: 45, A: 255},
-					FillColor:   drawing.Color{R: 248, G: 198, B: 45, A: 50},
-				},
-			},
-			chart.TimeSeries{
-				Name:    "Novi ključi (na dan)",
-				XValues: dates,
-				YValues: newKeys,
-				YAxis:   chart.YAxisSecondary,
-				Style: chart.Style{
-					Show:        true,
-					StrokeWidth: 2,
-					StrokeColor: drawing.Color{R: 78, G: 126, B: 245, A: 255},
-					FillColor:   drawing.Color{R: 78, G: 126, B: 245, A: 50},
-				},
-			},
+			activeKeysSeries,
+			chart.LastValueAnnotation(activeKeysSeries),
+			newKeysSeries,
+			newKeysMovingAverageSeries,
 		},
 	}
 
