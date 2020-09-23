@@ -29,4 +29,4 @@ analyze:
 		export-analyzer -json=false --file="$$file" >"data/$(COUNTRY)/$$BASENAME.log" 2>&1 || true;\
 	done
 
-	go run export-aggregate.go chart.go
+	go run export-aggregate.go chart.go --path=data/$(COUNTRY)
