@@ -1,6 +1,6 @@
 # Temporary Exposure Key Export scraper
 
-[![Periodic update status](https://github.com/stefanb/cwa-scrape/workflows/Periodic%20update/badge.svg)](https://github.com/stefanb/cwa-scrape/actions)
+[![Periodic update status](https://github.com/sledilnik/cwa-scrape/workflows/Periodic%20update/badge.svg)](https://github.com/sledilnik/cwa-scrape/actions)
 
 Periodically scrapes the daily data from [Slovenian contact tracing app #OstaniZdrav](https://www.gov.si/ostanizdrav) and publishes it into this git repository into [data/SI](data/SI) directory.
 

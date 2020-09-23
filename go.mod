@@ -1,4 +1,4 @@
-module github.com/stefanb/cwa-scrape
+module github.com/sledilnik/cwa-scrape
 
 go 1.15
 
