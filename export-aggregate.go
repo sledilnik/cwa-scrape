@@ -150,6 +150,8 @@ func writeCSV(data interface{}, fileName string) {
 }
 
 func main() {
+	flag.Parse()
+
 	dailyKeyCounts := getDailyKeyCounts()
 	writeJSON(dailyKeyCounts, *path+"/keycount.json")
 	writeCSV(dailyKeyCounts, *path+"/keycount.csv")
