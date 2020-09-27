@@ -14,6 +14,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 	dates := make([]time.Time, 0)
 	newKeys := make([]float64, 0)
 	newKeys14Days := make([]float64, 0)
+	validKeys14Days := make([]float64, 0)
 
 	for _, v := range dailyKeyCounts {
 		d, _ := time.Parse(isoDateFormat, v.Date)
@@ -21,11 +22,12 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		// dates = append(dates, float64(i))
 
 		newKeys = append(newKeys, float64(v.NewKeysCount))
-		newKeys14Days = append(newKeys14Days, float64(v.KeysInLast14Days))
+		newKeys14Days = append(newKeys14Days, float64(v.NewKeysInLast14Days))
+		validKeys14Days = append(validKeys14Days, float64(v.ValidKeysInLast14Days))
 	}
 
 	activeKeysSeries := chart.TimeSeries{
-		Name:    "Aktivni ključi (14 dni)",
+		Name:    "Novi ključi (14 dni)",
 		XValues: dates,
 		YValues: newKeys14Days,
 		YAxis:   chart.YAxisPrimary,
@@ -35,6 +37,21 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 			StrokeColor: drawing.Color{R: 248, G: 198, B: 45, A: 255},
 			FillColor:   drawing.Color{R: 252, G: 244, B: 213, A: 255},
 			// FillColor:   drawing.Color{R: 248, G: 198, B: 45, A: 50},
+		},
+	}
+
+	validKeysSeries := chart.TimeSeries{
+		Name:    "Veljavni ključi (14 dni)",
+		XValues: dates,
+		YValues: validKeys14Days,
+		YAxis:   chart.YAxisPrimary,
+		Style: chart.Style{
+			Show:        true,
+			StrokeWidth: 2,
+			// StrokeDashArray: []float64{5, 2},
+			StrokeColor: drawing.ColorRed, //.Color{R: 248, G: 150, B: 5, A: 255},
+			FillColor:   drawing.Color{R: 252, G: 204, B: 183, A: 255},
+			// FillColor: drawing.Color{R: 248, G: 198, B: 45, A: 50},
 		},
 	}
 
@@ -58,8 +75,8 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		Name:        "Novi ključi (povprečje 7 dni)",
 		Style: chart.Style{
 			Show:            true,
-			StrokeWidth:     1,
-			StrokeDashArray: []float64{5, 5},
+			StrokeWidth:     2,
+			StrokeDashArray: []float64{5, 2},
 			StrokeColor:     drawing.Color{R: 78, G: 126, B: 245, A: 255},
 		},
 	}
@@ -79,7 +96,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 			},
 		},
 		YAxis: chart.YAxis{
-			Name:      "Aktivni ključi (14 dni)",
+			Name:      "Novi/Veljavni ključi (14 dni)",
 			NameStyle: chart.StyleShow(),
 			Style:     chart.StyleShow(),
 			ValueFormatter: func(v interface{}) string {
@@ -90,7 +107,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 			},
 		},
 		YAxisSecondary: chart.YAxis{
-			Name:      "Novi ključi",
+			Name:      "Novi ključi (na dan)",
 			NameStyle: chart.StyleShow(),
 			Style:     chart.StyleShow(),
 			ValueFormatter: func(v interface{}) string {
@@ -104,6 +121,8 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		Series: []chart.Series{
 			activeKeysSeries,
 			chart.LastValueAnnotation(activeKeysSeries),
+			validKeysSeries,
+			chart.LastValueAnnotation(validKeysSeries),
 			newKeysSeries,
 			newKeysMovingAverageSeries,
 		},
