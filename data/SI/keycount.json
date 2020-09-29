@@ -304,5 +304,11 @@
     "new_key_count": 70,
     "new_keys_in_last_14_days": 709,
     "valid_keys_in_last_14_days": 488
+  },
+  {
+    "date": "2020-09-30",
+    "new_key_count": 0,
+    "new_keys_in_last_14_days": 681,
+    "valid_keys_in_last_14_days": 436
   }
 ]
