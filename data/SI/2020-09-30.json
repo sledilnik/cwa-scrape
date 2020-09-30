@@ -25,6 +25,12 @@
       "rolling_period": 144
     },
     {
+      "key_data": "AcbNNPK4H2y0D1eT1v6w9Q==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2668320,
+      "rolling_period": 144
+    },
+    {
       "key_data": "BDXqsmsvsDd7G/c1YW2ajw==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2667744,
@@ -40,6 +46,12 @@
       "key_data": "BtQDtOV04WdaZRwi+WDMgA==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2668464,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "CugsJerAw/mNeL46fYDHqg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667888,
       "rolling_period": 144
     },
     {
@@ -70,6 +82,12 @@
       "key_data": "GJF2Xyex3ZWNvoJ1jKn6XA==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2667168,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "GV+IxaBDBxXPA0vqk52u6Q==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2668896,
       "rolling_period": 144
     },
     {
@@ -109,6 +127,12 @@
       "rolling_period": 144
     },
     {
+      "key_data": "NVreKtJqgaGSkAqEYXJaCw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667312,
+      "rolling_period": 144
+    },
+    {
       "key_data": "Nw/sWvlJpf7ZvFVjyrbwPQ==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2668752,
@@ -127,6 +151,24 @@
       "rolling_period": 144
     },
     {
+      "key_data": "QF2TubGhKCsexRADA47FVw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2668608,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "RX/PnoAdpphz0rWvFLqUEA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2668464,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "ReRDMYr6fxsVQPcGWRZVIA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2668032,
+      "rolling_period": 144
+    },
+    {
       "key_data": "SeNSM2b7PrcLgK1vWxqU4g==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2668608,
@@ -136,6 +178,18 @@
       "key_data": "TBSNpFSj6MV6y+Mx5XS/gw==",
       "transmission_risk_level": 3,
       "rolling_start_interval_number": 2668176,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "TFKkLRLfVLEgd21FvTeWYQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667456,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "TUIjKEE/dr8NOGhVkJzwOA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667744,
       "rolling_period": 144
     },
     {
@@ -379,6 +433,12 @@
       "rolling_period": 144
     },
     {
+      "key_data": "1dIbiwlX05FI3rrhUvXaTQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667600,
+      "rolling_period": 144
+    },
+    {
       "key_data": "15BPwlNoiuZ+lEwcjHBsGA==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2668464,
@@ -388,6 +448,12 @@
       "key_data": "2f9U6wALAFHa/zYLLHDaww==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2668752,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "2iQtt65ijuWnkw8JvGCbYg==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2668176,
       "rolling_period": 144
     },
     {
@@ -439,9 +505,21 @@
       "rolling_period": 144
     },
     {
+      "key_data": "6DBVxUOfajSXmIVXws+02A==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2668752,
+      "rolling_period": 144
+    },
+    {
       "key_data": "6KLmj+Q+l2AGnx16gBmeAw==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2667312,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "7UyhSMJuQIZCCDGVusao/A==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2667168,
       "rolling_period": 144
     },
     {
