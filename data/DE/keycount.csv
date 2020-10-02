@@ -1,4 +1,4 @@
-date,new_key_count,new_keys_in_last_14_days,valid_keys_in_last_14_days
+date,new_key_count,new_keys_in_last_14_days,non_expired_keys
 2020-06-23,474,474,474
 2020-06-24,720,1194,1194
 2020-06-25,1160,2354,2354
@@ -97,3 +97,6 @@ date,new_key_count,new_keys_in_last_14_days,valid_keys_in_last_14_days
 2020-09-26,9593,126102,80139
 2020-09-27,6071,127196,77373
 2020-09-28,8430,129971,76621
+2020-09-29,12700,133123,79985
+2020-09-30,12850,135738,83649
+2020-10-01,14299,138872,88575
