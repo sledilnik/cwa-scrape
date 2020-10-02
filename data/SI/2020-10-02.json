@@ -1,0 +1,76 @@
+{
+  "start_timestamp": 1601596800,
+  "end_timestamp": 1601683200,
+  "region": "SI",
+  "batch_num": 1,
+  "batch_size": 1,
+  "signature_infos": [
+    {
+      "verification_key_version": "v1",
+      "verification_key_id": "293",
+      "signature_algorithm": "1.2.840.10045.4.3.2"
+    }
+  ],
+  "keys": [
+    {
+      "key_data": "FApvh0xMWrJpMBZaINexaA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "JA+FhMZgI8F2vFvDEXKsUw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "aHTmxrMlM0chueqtKe7e6A==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "eZu5ZnpZfnrM5oKsHK27TQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "epv6DpVnTMe0Ds1HCxsJYA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "kGmLlA1GKWe5duou+VE6zQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "rPLEn2rUj4FT8SoNpU2Xqg==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "xZd3+g87t0IvAm7bhz0AvA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "2YpdQLhOj3lhCFl5RrmWrw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "6mF+rw+DiLvNhH+Vzlxjjw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2669184,
+      "rolling_period": 144
+    }
+  ]
+}
