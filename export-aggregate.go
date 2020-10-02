@@ -43,11 +43,11 @@ type ExposureNotificationExportKey struct {
 }
 
 type DailyKeyCount struct {
-	Date                  string                          `json:"date" csv:"date"`
-	NewKeysCount          int                             `json:"new_key_count" csv:"new_key_count"`
-	NewKeysInLast14Days   int                             `json:"new_keys_in_last_14_days" csv:"new_keys_in_last_14_days"`
-	ValidKeysInLast14Days int                             `json:"valid_keys_in_last_14_days" csv:"valid_keys_in_last_14_days"`
-	Keys                  []ExposureNotificationExportKey `json:"-" csv:"-"`
+	Date                string                          `json:"date" csv:"date"`
+	NewKeysCount        int                             `json:"new_key_count" csv:"new_key_count"`
+	NewKeysInLast14Days int                             `json:"new_keys_in_last_14_days" csv:"new_keys_in_last_14_days"`
+	NonExpiredKeys      int                             `json:"non_expired_keys" csv:"non_expired_keys"`
+	Keys                []ExposureNotificationExportKey `json:"-" csv:"-"`
 }
 
 // InitialDailyNewKeyCounts populated with initial reconstructed data from before production and scraping
@@ -113,7 +113,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 
 		newKeysInLast14days.Value = dailyKeys
 		sum := 0
-		activeKeys := 0
+		nonExpiredKeys := 0
 		twoWeeksAgo := date.AddDate(0, 0, -14)
 		newKeysInLast14days.Do(func(p interface{}) {
 			keys := p.([]ExposureNotificationExportKey)
@@ -121,18 +121,18 @@ func getDailyKeyCounts() []DailyKeyCount {
 
 			for _, k := range keys {
 				if getTimeFromRollingIntervalNumber(k.RollingStartIntervalNumber).After(twoWeeksAgo) {
-					activeKeys++
+					nonExpiredKeys++
 					// fmt.Println("active:", getTimeFromRollingIntervalNumber(k.RollingStartIntervalNumber), k)
 				}
 			}
-			fmt.Println(dateIso, twoWeeksAgo, ":", activeKeys, "of", sum)
+			fmt.Println(dateIso, twoWeeksAgo, ":", nonExpiredKeys, "of", sum)
 		})
 
 		dailyKeyCounts = append(dailyKeyCounts, DailyKeyCount{
-			Date:                  dateIso,
-			NewKeysCount:          n,
-			NewKeysInLast14Days:   sum,
-			ValidKeysInLast14Days: activeKeys,
+			Date:                dateIso,
+			NewKeysCount:        n,
+			NewKeysInLast14Days: sum,
+			NonExpiredKeys:      nonExpiredKeys,
 		})
 
 		date = date.AddDate(0, 0, 1)

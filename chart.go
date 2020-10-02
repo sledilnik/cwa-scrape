@@ -14,7 +14,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 	dates := make([]time.Time, 0)
 	newKeys := make([]float64, 0)
 	newKeys14Days := make([]float64, 0)
-	validKeys14Days := make([]float64, 0)
+	nonExpiredKeys := make([]float64, 0)
 
 	for _, v := range dailyKeyCounts {
 		d, _ := time.Parse(isoDateFormat, v.Date)
@@ -23,7 +23,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 
 		newKeys = append(newKeys, float64(v.NewKeysCount))
 		newKeys14Days = append(newKeys14Days, float64(v.NewKeysInLast14Days))
-		validKeys14Days = append(validKeys14Days, float64(v.ValidKeysInLast14Days))
+		nonExpiredKeys = append(nonExpiredKeys, float64(v.NonExpiredKeys))
 	}
 
 	activeKeysSeries := chart.TimeSeries{
@@ -40,10 +40,10 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		},
 	}
 
-	validKeysSeries := chart.TimeSeries{
-		Name:    "Veljavni ključi (14 dni)",
+	nonExpiredKeysSeries := chart.TimeSeries{
+		Name:    "Nepretečeni ključi",
 		XValues: dates,
-		YValues: validKeys14Days,
+		YValues: nonExpiredKeys,
 		YAxis:   chart.YAxisPrimary,
 		Style: chart.Style{
 			Show:        true,
@@ -96,7 +96,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 			},
 		},
 		YAxis: chart.YAxis{
-			Name:      "Novi/Veljavni ključi (14 dni)",
+			Name:      "Nepretečeni/Novi ključi (14 dni)",
 			NameStyle: chart.StyleShow(),
 			Style:     chart.StyleShow(),
 			ValueFormatter: func(v interface{}) string {
@@ -121,8 +121,8 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 		Series: []chart.Series{
 			activeKeysSeries,
 			chart.LastValueAnnotation(activeKeysSeries),
-			validKeysSeries,
-			chart.LastValueAnnotation(validKeysSeries),
+			nonExpiredKeysSeries,
+			chart.LastValueAnnotation(nonExpiredKeysSeries),
 			newKeysSeries,
 			newKeysMovingAverageSeries,
 		},
