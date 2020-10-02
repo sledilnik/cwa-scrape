@@ -322,5 +322,11 @@
     "new_key_count": 157,
     "new_keys_in_last_14_days": 1068,
     "non_expired_keys": 789
+  },
+  {
+    "date": "2020-10-03",
+    "new_key_count": 0,
+    "new_keys_in_last_14_days": 1055,
+    "non_expired_keys": 720
   }
 ]
