@@ -51,21 +51,11 @@ type DailyKeyCount struct {
 	Keys                []ExposureNotificationExportKey `json:"-" csv:"-"`
 }
 
-// InitialDailyNewKeyCounts populated with initial reconstructed data from before production and scraping
-var InitialDailyNewKeyCounts = map[string]int{
-	"2020-08-10": 1,
-	"2020-08-12": 9,
-	"2020-08-13": 1,
-}
 
 func getDailyNewKeyCount(date string) ([]ExposureNotificationExportKey, error) {
 	fileName := fmt.Sprintf("%s/%s.json", *path, date)
 	export, err := readExportJSON(fileName)
 	if err != nil {
-		if c, ok := InitialDailyNewKeyCounts[date]; ok {
-			return make([]ExposureNotificationExportKey, c), nil
-		}
-
 		return nil, err
 	}
 
@@ -90,7 +80,7 @@ func readExportJSON(fileName string) (*ExposureNotificationExport, error) {
 }
 
 func getDailyKeyCounts() []DailyKeyCount {
-	startDate := time.Date(2020, 8, 10, 0, 0, 0, 0, loc)
+	startDate := time.Date(2020, 8, 27, 0, 0, 0, 0, loc)
 	dailyKeyCounts := make([]DailyKeyCount, 0)
 
 	newKeysInLast14days := ring.New(14)
