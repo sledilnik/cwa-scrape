@@ -45,6 +45,7 @@ type ExposureNotificationExportKey struct {
 type DailyKeyCount struct {
 	Date                string                          `json:"date" csv:"date"`
 	NewKeysCount        int                             `json:"new_key_count" csv:"new_key_count"`
+	KeysTotal           int                             `json:"total_keys" csv:"total_keys"`
 	NewKeysInLast14Days int                             `json:"new_keys_in_last_14_days" csv:"new_keys_in_last_14_days"`
 	NonExpiredKeys      int                             `json:"non_expired_keys" csv:"non_expired_keys"`
 	Keys                []ExposureNotificationExportKey `json:"-" csv:"-"`
@@ -99,6 +100,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 	}
 
 	date := startDate
+	runningTotal := 0
 	for {
 		dateIso := date.Format(isoDateFormat)
 
@@ -110,6 +112,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 		}
 
 		n := len(dailyKeys)
+		runningTotal += n
 
 		newKeysInLast14days.Value = dailyKeys
 		sum := 0
@@ -120,9 +123,9 @@ func getDailyKeyCounts() []DailyKeyCount {
 			sum += len(keys)
 
 			for _, k := range keys {
-				if getTimeFromRollingIntervalNumber(k.RollingStartIntervalNumber).After(twoWeeksAgo) {
+				if k.getStart().After(twoWeeksAgo) {
 					nonExpiredKeys++
-					// fmt.Println("active:", getTimeFromRollingIntervalNumber(k.RollingStartIntervalNumber), k)
+					// fmt.Println("active:", k.getIsoDate(), k.getStart(), k)
 				}
 			}
 			fmt.Println(dateIso, twoWeeksAgo, ":", nonExpiredKeys, "of", sum)
@@ -131,6 +134,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 		dailyKeyCounts = append(dailyKeyCounts, DailyKeyCount{
 			Date:                dateIso,
 			NewKeysCount:        n,
+			KeysTotal:           runningTotal,
 			NewKeysInLast14Days: sum,
 			NonExpiredKeys:      nonExpiredKeys,
 		})
@@ -165,8 +169,12 @@ func writeCSV(data interface{}, fileName string) {
 	}
 }
 
-func getTimeFromRollingIntervalNumber(interval int) time.Time {
-	return time.Unix(int64(interval)*600, 0) // 10-minute slot since unix epoch
+func (k *ExposureNotificationExportKey) getStart() time.Time {
+	return time.Unix(int64(k.RollingStartIntervalNumber)*600, 0) // 10-minute slot since unix epoch
+}
+
+func (k *ExposureNotificationExportKey) getIsoDate() string {
+	return k.getStart().Format(isoDateFormat)
 }
 
 func main() {
