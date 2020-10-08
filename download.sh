@@ -2,7 +2,7 @@
 
 COUNTRY="$1"
 BASEURL="$2"
-EARLYDATE=$(date --date="-10 days" --iso-8601 2>&- || gdate --date="-10 days" --iso-8601)
+EARLYDATE=$(date --date="-3 days" --iso-8601 2>&- || gdate --date="-3 days" --iso-8601)
 
 mkdir -p "data/${COUNTRY}/hourly" || true
 
