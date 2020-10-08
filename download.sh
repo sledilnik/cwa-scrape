@@ -1,0 +1,19 @@
+#!/bin/bash
+
+COUNTRY="$1"
+BASEURL="$2"
+EARLYDATE=$(date --date="-10 days" --iso-8601 2>&- || gdate --date="-10 days" --iso-8601)
+
+mkdir -p "data/${COUNTRY}" || true
+
+for DAY in $(curl -s "${BASEURL}diagnosis-keys/country/${COUNTRY}/date" | jq -r '.[]');
+do 
+    echo "Checking if ${DAY} is after ${EARLYDATE}:	";
+    if [ "${DAY}" \> "${EARLYDATE}" ];
+    then
+        echo "Downloading ${DAY}:	";
+        wget "${BASEURL}diagnosis-keys/country/${COUNTRY}/date/${DAY}" -O "data/${COUNTRY}/${DAY}.zip";
+    fi;
+done
+
+wget "${BASEURL}configuration/country/${COUNTRY}/app_config" -O "data/${COUNTRY}/app_config.zip"
