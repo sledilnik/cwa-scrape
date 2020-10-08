@@ -1,0 +1,34 @@
+{
+  "start_timestamp": 1602115200,
+  "end_timestamp": 1602201600,
+  "region": "SI",
+  "batch_num": 1,
+  "batch_size": 1,
+  "signature_infos": [
+    {
+      "verification_key_version": "v1",
+      "verification_key_id": "293",
+      "signature_algorithm": "1.2.840.10045.4.3.2"
+    }
+  ],
+  "keys": [
+    {
+      "key_data": "Aho+Ps+5fWMNiPL0HMwKpg==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2670048,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "KT5/tE0sGsCJbwoVDJCOJg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2669904,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "vU4RUB0nMiRgFkBzgTjzQg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2669760,
+      "rolling_period": 144
+    }
+  ]
+}
