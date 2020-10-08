@@ -4,7 +4,7 @@ COUNTRY="$1"
 BASEURL="$2"
 EARLYDATE=$(date --date="-10 days" --iso-8601 2>&- || gdate --date="-10 days" --iso-8601)
 
-mkdir -p "data/${COUNTRY}" || true
+mkdir -p "data/${COUNTRY}/hourly" || true
 
 for DAY in $(curl -s "${BASEURL}diagnosis-keys/country/${COUNTRY}/date" | jq -r '.[]');
 do 
@@ -13,6 +13,12 @@ do
     then
         echo "Downloading ${DAY}:	";
         wget "${BASEURL}diagnosis-keys/country/${COUNTRY}/date/${DAY}" -O "data/${COUNTRY}/${DAY}.zip";
+
+        for HOUR in $(curl -s "${BASEURL}diagnosis-keys/country/${COUNTRY}/date/${DAY}/hour" | jq -r '.[]');
+        do
+            echo "Downloading hour ${HOUR}:	";
+            wget "${BASEURL}diagnosis-keys/country/${COUNTRY}/date/${DAY}/hour/${HOUR}" -O "data/${COUNTRY}/hourly/${DAY}-${HOUR}.zip";
+        done
     fi;
 done
 
