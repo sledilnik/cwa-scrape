@@ -19,6 +19,18 @@
       "rolling_period": 144
     },
     {
+      "key_data": "AQ8L+1u+NuUF8JOg2tUfjQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "AUB5UilsDEXUMQFtmezd2w==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
       "key_data": "Ans5Dtp031DKyGovDSH0Qg==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670912,
@@ -31,9 +43,51 @@
       "rolling_period": 144
     },
     {
+      "key_data": "BFM1EUmMt4I2lkOVrNwcsA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "BKDn3J3UVV3zUhsrCTh95Q==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "BQlPS/m2xm6InCR8Q7psFg==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "BXDbT7g7yE1iowbjJn18KQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
       "key_data": "BzH0eHGV75zfzP5g3o3NyQ==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "CpKXpYvWPcxyp+a8xVn6yg==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "CymX7qVK7vOtiPhgT7ptqQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "C18i7TBd0lSS+CDrnZ/bsw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
       "rolling_period": 144
     },
     {
@@ -43,9 +97,51 @@
       "rolling_period": 144
     },
     {
+      "key_data": "EEHwTCKnjY+SxQUML2m97A==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "EHlWaow8jjsQzOtGHGoqbw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "EeNkvLDnO8kkV+/Md65zyQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Ekf2pzUxah6WbAHlUmwfBA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "FChqgVDQjfnyCml8+kx90w==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "GGeSfezCFVmyLyS5bHUeVw==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
       "key_data": "GNV0hnZ6wxxjRDuQCnfXKQ==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Hf94Ks04sr+WPtcLrbJd1Q==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
       "rolling_period": 144
     },
     {
@@ -73,6 +169,18 @@
       "rolling_period": 144
     },
     {
+      "key_data": "I1UqPrhE1ziSVOOf1mzdVA==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "I8koXMps3+W5KtiSTo3STQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
       "key_data": "KEZXK6z7pEPzx2NRwLksdg==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671344,
@@ -82,6 +190,66 @@
       "key_data": "Ki42MWvSJQn1T0RzitdxQg==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "LHrWVWUnPgx3l+sQJm1/Ug==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "LLVNzfkiBE/iLmlwoRoHHw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "LUFvnzA8pKaouX4492ZTeg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "LbPj0GL+1x33h25WHqdjFA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Lo0Z/xJYvI01WgdB1VlsAA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Lw/QlIcbFzHUym/BZBnUPQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "MVF/zGFyFbiCNN5wkfExlg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "MfyWT3zen8Mzwmc5v4BRBA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "NfUcFBe26RX7Y5O100f4Rw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "OgGnISXMysuzjXBYZ1iccw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
       "rolling_period": 144
     },
     {
@@ -103,9 +271,111 @@
       "rolling_period": 144
     },
     {
+      "key_data": "RcPzbk70RhuLwSreXDlHIw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "RvNakXVspIeQLUJklOT2zw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "TdQ2pUBDdq1J0nQepVMhBQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "TpaNSsRg3NxlLrJ4TjmODQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
       "key_data": "T/Q3gEvgGuaxCvbqdicdKA==",
       "transmission_risk_level": 3,
       "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "UfM3gxtQKlIxREJeJwNDZQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "Ugoarp6nwgzqV6hrOdEAuA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "UivPgepK5kR+M8Xk9dw0hg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "UsraBMajnogkMjC7D6APMw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "UuaiXCcLKXoKdze+6nlbFw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "U6Kc+JIxrsT3ZpIQBTE0LQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "U8jjfm1k8+TbndKfVB0oTg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "VCSdEIFE2sBfVx0K5j0TqA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "V69ybd/dd0w2ts0hzXyPFg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "WgazkpeUL5j8X9kiuE6F9Q==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "WkqyeK9Sb3PBgM8EXFVIMQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "W6tFjbr7Y1ToGxGDyL7FZw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "XO4pVpkmpG3qh2iFJoSWRQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
       "rolling_period": 144
     },
     {
@@ -115,9 +385,21 @@
       "rolling_period": 144
     },
     {
+      "key_data": "YZSanGOQ/gh6IioWxKxBjA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
       "key_data": "Yg7Qb8d6UwFq3DwE3rKunQ==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "YpTZGpUkiDm43KIneQSVrg==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671920,
       "rolling_period": 144
     },
     {
@@ -130,6 +412,12 @@
       "key_data": "Y+Rag+VFmyko+TN5X6ifSw==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "ZR/k5LnPzUS18G1Ps2W7nA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
       "rolling_period": 144
     },
     {
@@ -151,9 +439,51 @@
       "rolling_period": 144
     },
     {
+      "key_data": "aWVqq9F4MCRKy4HujEaBFQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "aYrApmEoXsKBYTUKbVk8kg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
       "key_data": "b7b15mZBG72hnzHVZzPpPA==",
       "transmission_risk_level": 5,
       "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "cBuVyNoYHcmiramkSVziVQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "cB/C2gCXVIPYfjsL17azLQ==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "cIbaVr3nwJ9cSK/Jn2b6Uw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "cLdj4pCV27dY+QmWC5dOVQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "dAuJR88plwE78IvytQuzCg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
       "rolling_period": 144
     },
     {
@@ -169,13 +499,79 @@
       "rolling_period": 144
     },
     {
+      "key_data": "dwM+DatxxcUji5iQZrWbxQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "efaKQ/9lYuGEwQOn0NDtjA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "ez6YNG4WujOVDzL5iBScmg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "fGxDgm+0lt5ZHYqlytsKZA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
       "key_data": "fZI9Q9/Yt0sXFZQ8jakqRw==",
       "transmission_risk_level": 3,
       "rolling_start_interval_number": 2671056,
       "rolling_period": 144
     },
     {
+      "key_data": "fZb7+otJZb3zcscKjOTKOw==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "feryi1v01ABHD8zybOcZ2A==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "fgLqAkwqvOzZIwmX4V9pNg==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
       "key_data": "fzz0bl20L1fE/Ug4+LcpOw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "gK7pKwy9bBdNAIMf5T7zrw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "gK8dXLJ+2c4XsCcy2BAt0w==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "g49t3Fnaeqq32RInaS9TnQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "hd/PsV30cdbPCWbsSkiZeA==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671488,
       "rolling_period": 144
@@ -187,15 +583,69 @@
       "rolling_period": 144
     },
     {
+      "key_data": "iFkXUoiTLeaq1z6qLUkIUA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
       "key_data": "ikrzl/uEbFjFZP6pF+LNOQ==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670624,
       "rolling_period": 144
     },
     {
+      "key_data": "jH1TS/Z5OdD1QvEtpa0tPw==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "jIdoZKny9Avu6NSprbbyGA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "jlVJQLqhf5kql+lTQGwVJQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
       "key_data": "j/lgTJ+O0MNRutJgTbF/yw==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "kJeBgwMa9WshzNvYjBoLpw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "kREdlKSZgK7dnaCzaSR7dQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "kbIdqc0hUPxDv+zYmEFp9w==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "kjWpY9khFA3MhToy+r1Evw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "lMWjfzgpO3N+rrxohrHkpQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
       "rolling_period": 144
     },
     {
@@ -211,9 +661,51 @@
       "rolling_period": 144
     },
     {
+      "key_data": "mQTgZi3isGiFbC/BuXB+ew==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "m3gLx9wZAiOyAq7yArMXxw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "nUcJFvg2xgf3ulo4I6zh9Q==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "napsuG28iy1Jh1TjiITauA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "nrT8lQWrawVfdOINJWeFhw==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "o5lJvSESRSFYZXT7HAKSyQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
       "key_data": "pQ316gFnmq0DzRkhCtK/cQ==",
       "transmission_risk_level": 3,
       "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "pUBq62bCBW2oCD41f22Y8w==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
       "rolling_period": 144
     },
     {
@@ -223,9 +715,51 @@
       "rolling_period": 144
     },
     {
+      "key_data": "poBZZjjrC59pKh//6UQP6A==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "qfDk0hski0bV5vqEb2vfdA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "r6lR4+UbCpq/xUZZVl9i/g==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "sAfTJs5WNDrgapMFfEfQew==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
       "key_data": "sR5R/RjpoPBktTPqfrUdDw==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "suMOCPjN1quDYtrNbLKKDA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "tVmko2wMuw9wzBm+Rde+lw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "uBHv34hiOGaBdhf4Fjl9OQ==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
       "rolling_period": 144
     },
     {
@@ -235,9 +769,45 @@
       "rolling_period": 144
     },
     {
+      "key_data": "uc1efup3wkKJ4VtehxrJ3g==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
       "key_data": "usCee+RCXEJBYLIMJSlQRA==",
       "transmission_risk_level": 5,
       "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "vnmFFEaawkABvdAVqyM9Fw==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "wDOPZQLLx/E/RgHK8zZLiA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "wYJ7PXEZXdy7GCxe3N5hmA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "w7VbomnuGYWmmMpYtYNbMQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "xNZUqiBQvKVPjY/krVcNEg==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
       "rolling_period": 144
     },
     {
@@ -253,9 +823,33 @@
       "rolling_period": 144
     },
     {
+      "key_data": "ysGyTf2wGcS6sjN0DcGmGg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "y1Ao0e/jGHvhx+zgXWRT7A==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
       "key_data": "y4Gra1gtHfKL0QU0WOkAkQ==",
       "transmission_risk_level": 6,
       "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "zDcMVC/KL8rZ40hnUmgtEQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "zNGAo7FnFUST1doQTlo5MQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
       "rolling_period": 144
     },
     {
@@ -265,9 +859,93 @@
       "rolling_period": 144
     },
     {
+      "key_data": "1Z1RW8ns58pH2zBTQ2+k3A==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "1lmpFlV5UrVC64u5u97P2g==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
       "key_data": "2H9ny6+ogusOImqz/yTnqg==",
       "transmission_risk_level": 1,
       "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "2gH7jfAMJg4F7YKSQqakzw==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "2iPNToHyybeNucijlCa2Ew==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "3IewufOQlaYehrRyZrJGow==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "3d3dCmNwQoaNU/Pkuxtiow==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670336,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "3koEd/Bhf8F7Bi2ATA7h1g==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "35vEA7n+VfSiQ7omL2B0GQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671488,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "3+jFjgrbe6FYilBoN+NSBw==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "4JNhOMeZhTtRn5NS+/fgQA==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "4Uv1tFG5EIGIwFLE1RSuhg==",
+      "transmission_risk_level": 3,
+      "rolling_start_interval_number": 2671056,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "4l6HwH66ZuKmUOM0QY2cbg==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "5AbPdf9iP2tJtqVYFZoAUQ==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "5IBfTpwMb5TLljShTnBZRQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
       "rolling_period": 144
     },
     {
@@ -277,15 +955,63 @@
       "rolling_period": 144
     },
     {
+      "key_data": "6GEDXvXkWHHZg1rBdXwGkg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670192,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "6IQPpylbuYNsoW6dkv4FwQ==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670480,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "6vzVpPvQOrJCuvs8AW57WA==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
       "key_data": "7Eo9EvlbQAkZ8tJJ58EHSQ==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671632,
       "rolling_period": 144
     },
     {
+      "key_data": "7OuSSiL6LzrIw0HpCsx4jw==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671920,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "7dtjsKD9vh78CM19RC/H+w==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670768,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "7g0uETB46JMwNF6O27n1Bg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670912,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "8R75K6xrrhuFfvDfRC2tWA==",
+      "transmission_risk_level": 5,
+      "rolling_start_interval_number": 2671344,
+      "rolling_period": 144
+    },
+    {
       "key_data": "8dmRLwCCDzdTm9X4U4PYHQ==",
       "transmission_risk_level": 8,
       "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "8flLqnsiEjeZ/jtoiGMIvg==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671776,
       "rolling_period": 144
     },
     {
@@ -310,6 +1036,30 @@
       "key_data": "+j4LR5hrXeqE4mof+iKzJw==",
       "transmission_risk_level": 5,
       "rolling_start_interval_number": 2671200,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "/H1QUvjO/NP4I4+Pzk2c1g==",
+      "transmission_risk_level": 6,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "/JWAnuC4v0TbX7fLtNM+wg==",
+      "transmission_risk_level": 1,
+      "rolling_start_interval_number": 2670624,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "/ewF5NJH4MiwavkFQmMDvQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671632,
+      "rolling_period": 144
+    },
+    {
+      "key_data": "/tumlBfKYRgHg7E6yrnokQ==",
+      "transmission_risk_level": 8,
+      "rolling_start_interval_number": 2671344,
       "rolling_period": 144
     },
     {
