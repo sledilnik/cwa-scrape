@@ -568,23 +568,23 @@
   },
   {
     "date": "2020-11-16",
-    "new_key_count": 0,
-    "total_keys": 39545,
-    "new_keys_in_last_14_days": 14956,
-    "non_expired_keys": 7949
+    "new_key_count": 738,
+    "total_keys": 40283,
+    "new_keys_in_last_14_days": 15694,
+    "non_expired_keys": 8687
   },
   {
     "date": "2020-11-17",
     "new_key_count": 1365,
-    "total_keys": 40910,
-    "new_keys_in_last_14_days": 15172,
-    "non_expired_keys": 8144
+    "total_keys": 41648,
+    "new_keys_in_last_14_days": 15910,
+    "non_expired_keys": 8882
   },
   {
     "date": "2020-11-18",
-    "new_key_count": 117,
-    "total_keys": 41027,
-    "new_keys_in_last_14_days": 13946,
-    "non_expired_keys": 7174
+    "new_key_count": 250,
+    "total_keys": 41898,
+    "new_keys_in_last_14_days": 14817,
+    "non_expired_keys": 7990
   }
 ]
