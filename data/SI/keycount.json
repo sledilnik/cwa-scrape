@@ -596,9 +596,9 @@
   },
   {
     "date": "2020-11-20",
-    "new_key_count": 104,
-    "total_keys": 44318,
-    "new_keys_in_last_14_days": 14809,
-    "non_expired_keys": 8149
+    "new_key_count": 240,
+    "total_keys": 44454,
+    "new_keys_in_last_14_days": 14945,
+    "non_expired_keys": 8285
   }
 ]
