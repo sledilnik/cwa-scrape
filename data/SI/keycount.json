@@ -666,16 +666,16 @@
   },
   {
     "date": "2020-11-30",
-    "new_key_count": 450,
-    "total_keys": 54015,
-    "new_keys_in_last_14_days": 13732,
-    "non_expired_keys": 7179
+    "new_key_count": 463,
+    "total_keys": 54028,
+    "new_keys_in_last_14_days": 13745,
+    "non_expired_keys": 7192
   },
   {
     "date": "2020-12-01",
     "new_key_count": 0,
-    "total_keys": 54015,
-    "new_keys_in_last_14_days": 12367,
-    "non_expired_keys": 6146
+    "total_keys": 54028,
+    "new_keys_in_last_14_days": 12380,
+    "non_expired_keys": 6159
   }
 ]
