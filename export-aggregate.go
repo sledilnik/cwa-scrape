@@ -15,7 +15,7 @@ import (
 var (
 	path = flag.String("path", "data/SI", "path to the export json files")
 
-	loc, _ = time.LoadLocation("Europe/Ljubljana")
+	loc = time.UTC
 )
 
 const isoDateFormat = "2006-01-02"
@@ -131,7 +131,7 @@ func getDailyKeyCounts() []DailyKeyCount {
 
 		date = date.AddDate(0, 0, 1)
 		newKeysInLast14days = newKeysInLast14days.Next()
-		if date.After(time.Now().In(loc)) {
+		if !date.Before(time.Now().In(loc).Truncate(24 * time.Hour)) {
 			break
 		}
 	}
