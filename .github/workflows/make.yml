@@ -57,5 +57,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'OstaniZdrav data update 🤖'
+        rebase: 'true' # pull abd rebase before commit
         files: data/
         name: Corona Warn scrape bot 🤖
