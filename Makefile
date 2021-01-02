@@ -4,7 +4,7 @@ COUNTRY = SI
 all: download analyze
 
 download:
-	./download.sh $(COUNTRY) $(BASEURL)
+	./download.sh $(BASEURL)
 
 analyze:
 	go install github.com/google/exposure-notifications-server/tools/export-analyzer
