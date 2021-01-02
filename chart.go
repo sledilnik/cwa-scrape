@@ -9,7 +9,7 @@ import (
 	"github.com/wcharczuk/go-chart/drawing"
 )
 
-func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
+func writeChart(dailyKeyCounts []DailyKeyCount, filename string, country string) {
 
 	dates := make([]time.Time, 0)
 	newKeys := make([]float64, 0)
@@ -84,7 +84,7 @@ func writeChart(dailyKeyCounts []DailyKeyCount, filename string) {
 	graph := chart.Chart{
 		Width:      1000,
 		Height:     600,
-		Title:      "Ključi na #OstaniZdrav strežniku",
+		Title:      fmt.Sprintf("%s ključi na #OstaniZdrav strežniku", country),
 		TitleStyle: chart.StyleShow(),
 
 		XAxis: chart.XAxis{

@@ -7,13 +7,15 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/gocarina/gocsv"
 )
 
 var (
-	path = flag.String("path", "data/SI", "path to the export json files")
+	path    = flag.String("path", "", "path to the export json files")
+	country = flag.String("country", "", "country to to analyze")
 
 	loc = time.UTC
 )
@@ -79,8 +81,34 @@ func readExportJSON(fileName string) (*ExposureNotificationExport, error) {
 	return &data, nil
 }
 
+func getStartDate() time.Time {
+	var startDate time.Time
+	files, err := ioutil.ReadDir(*path)
+	if err != nil {
+		panic(err)
+	}
+
+	for _, f := range files {
+		fn := f.Name()
+		if strings.HasSuffix(fn, ".json") {
+			dateName := strings.TrimSuffix(fn, ".json")
+			startDate, err = time.Parse(isoDateFormat, dateName)
+			if err == nil {
+				break
+			}
+		}
+	}
+
+	if startDate.IsZero() {
+		panic("Could not determine start date")
+	}
+
+	return startDate
+}
+
 func getDailyKeyCounts() []DailyKeyCount {
-	startDate := time.Date(2020, 8, 27, 0, 0, 0, 0, loc)
+	startDate := getStartDate()
+
 	dailyKeyCounts := make([]DailyKeyCount, 0)
 
 	newKeysInLast14days := ring.New(14)
@@ -173,5 +201,5 @@ func main() {
 	dailyKeyCounts := getDailyKeyCounts()
 	writeJSON(dailyKeyCounts, *path+"/keycount.json")
 	writeCSV(dailyKeyCounts, *path+"/keycount.csv")
-	writeChart(dailyKeyCounts, *path+"/keycount.png")
+	writeChart(dailyKeyCounts, *path+"/keycount.png", *country)
 }
