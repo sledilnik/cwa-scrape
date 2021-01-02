@@ -2,607 +2,1352 @@
   {
     "date": "2020-06-23",
     "new_key_count": 474,
+    "total_keys": 474,
     "new_keys_in_last_14_days": 474,
     "non_expired_keys": 474
   },
   {
     "date": "2020-06-24",
     "new_key_count": 720,
+    "total_keys": 1194,
     "new_keys_in_last_14_days": 1194,
     "non_expired_keys": 1194
   },
   {
     "date": "2020-06-25",
     "new_key_count": 1160,
+    "total_keys": 2354,
     "new_keys_in_last_14_days": 2354,
     "non_expired_keys": 2354
   },
   {
     "date": "2020-06-26",
     "new_key_count": 1450,
+    "total_keys": 3804,
     "new_keys_in_last_14_days": 3804,
     "non_expired_keys": 3804
   },
   {
     "date": "2020-06-27",
     "new_key_count": 1280,
+    "total_keys": 5084,
     "new_keys_in_last_14_days": 5084,
     "non_expired_keys": 5084
   },
   {
     "date": "2020-06-28",
     "new_key_count": 760,
+    "total_keys": 5844,
     "new_keys_in_last_14_days": 5844,
-    "non_expired_keys": 5844
+    "non_expired_keys": 5834
   },
   {
     "date": "2020-06-29",
     "new_key_count": 1270,
+    "total_keys": 7114,
     "new_keys_in_last_14_days": 7114,
-    "non_expired_keys": 7104
+    "non_expired_keys": 7094
   },
   {
     "date": "2020-06-30",
     "new_key_count": 2680,
+    "total_keys": 9794,
     "new_keys_in_last_14_days": 9794,
-    "non_expired_keys": 9774
+    "non_expired_keys": 9323
   },
   {
     "date": "2020-07-01",
     "new_key_count": 1990,
+    "total_keys": 11784,
     "new_keys_in_last_14_days": 11784,
-    "non_expired_keys": 11313
+    "non_expired_keys": 10621
   },
   {
     "date": "2020-07-02",
     "new_key_count": 1960,
+    "total_keys": 13744,
     "new_keys_in_last_14_days": 13744,
-    "non_expired_keys": 12581
+    "non_expired_keys": 11617
   },
   {
     "date": "2020-07-03",
     "new_key_count": 945,
+    "total_keys": 14689,
     "new_keys_in_last_14_days": 14689,
-    "non_expired_keys": 12562
+    "non_expired_keys": 11341
   },
   {
     "date": "2020-07-04",
     "new_key_count": 535,
+    "total_keys": 15224,
     "new_keys_in_last_14_days": 15224,
-    "non_expired_keys": 11876
+    "non_expired_keys": 10639
   },
   {
     "date": "2020-07-05",
     "new_key_count": 180,
+    "total_keys": 15404,
     "new_keys_in_last_14_days": 15404,
-    "non_expired_keys": 10819
+    "non_expired_keys": 9515
   },
   {
     "date": "2020-07-06",
     "new_key_count": 495,
+    "total_keys": 15899,
     "new_keys_in_last_14_days": 15899,
-    "non_expired_keys": 10010
+    "non_expired_keys": 8595
   },
   {
     "date": "2020-07-07",
     "new_key_count": 715,
+    "total_keys": 16614,
     "new_keys_in_last_14_days": 16140,
-    "non_expired_keys": 9310
+    "non_expired_keys": 7975
   },
   {
     "date": "2020-07-08",
     "new_key_count": 495,
+    "total_keys": 17109,
     "new_keys_in_last_14_days": 15915,
-    "non_expired_keys": 8470
+    "non_expired_keys": 7030
   },
   {
     "date": "2020-07-09",
     "new_key_count": 620,
+    "total_keys": 17729,
     "new_keys_in_last_14_days": 15375,
-    "non_expired_keys": 7650
+    "non_expired_keys": 6380
   },
   {
     "date": "2020-07-10",
     "new_key_count": 1540,
+    "total_keys": 19269,
     "new_keys_in_last_14_days": 15465,
-    "non_expired_keys": 7920
+    "non_expired_keys": 6770
   },
   {
     "date": "2020-07-11",
     "new_key_count": 1010,
+    "total_keys": 20279,
     "new_keys_in_last_14_days": 15195,
-    "non_expired_keys": 7780
+    "non_expired_keys": 6615
   },
   {
     "date": "2020-07-12",
     "new_key_count": 200,
+    "total_keys": 20479,
     "new_keys_in_last_14_days": 14635,
-    "non_expired_keys": 6815
+    "non_expired_keys": 5660
   },
   {
     "date": "2020-07-13",
     "new_key_count": 440,
+    "total_keys": 20919,
     "new_keys_in_last_14_days": 13805,
-    "non_expired_keys": 6100
+    "non_expired_keys": 5055
   },
   {
     "date": "2020-07-14",
     "new_key_count": 1150,
+    "total_keys": 22069,
     "new_keys_in_last_14_days": 12275,
-    "non_expired_keys": 6205
+    "non_expired_keys": 5330
   },
   {
     "date": "2020-07-15",
     "new_key_count": 1220,
+    "total_keys": 23289,
     "new_keys_in_last_14_days": 11505,
-    "non_expired_keys": 6550
+    "non_expired_keys": 5730
   },
   {
     "date": "2020-07-16",
     "new_key_count": 1235,
+    "total_keys": 24524,
     "new_keys_in_last_14_days": 10780,
-    "non_expired_keys": 6965
+    "non_expired_keys": 6190
   },
   {
     "date": "2020-07-17",
     "new_key_count": 1255,
+    "total_keys": 25779,
     "new_keys_in_last_14_days": 11090,
-    "non_expired_keys": 7445
+    "non_expired_keys": 6650
   },
   {
     "date": "2020-07-18",
     "new_key_count": 1035,
+    "total_keys": 26814,
     "new_keys_in_last_14_days": 11590,
-    "non_expired_keys": 7685
+    "non_expired_keys": 6860
   },
   {
     "date": "2020-07-19",
     "new_key_count": 345,
+    "total_keys": 27159,
     "new_keys_in_last_14_days": 11755,
-    "non_expired_keys": 7205
+    "non_expired_keys": 6345
   },
   {
     "date": "2020-07-20",
     "new_key_count": 560,
+    "total_keys": 27719,
     "new_keys_in_last_14_days": 11820,
-    "non_expired_keys": 6905
+    "non_expired_keys": 6055
   },
   {
     "date": "2020-07-21",
     "new_key_count": 835,
+    "total_keys": 28554,
     "new_keys_in_last_14_days": 11940,
-    "non_expired_keys": 6890
+    "non_expired_keys": 6050
   },
   {
     "date": "2020-07-22",
     "new_key_count": 720,
+    "total_keys": 29274,
     "new_keys_in_last_14_days": 12165,
-    "non_expired_keys": 6770
+    "non_expired_keys": 5875
   },
   {
     "date": "2020-07-23",
     "new_key_count": 1375,
+    "total_keys": 30649,
     "new_keys_in_last_14_days": 12920,
-    "non_expired_keys": 7250
+    "non_expired_keys": 6380
   },
   {
     "date": "2020-07-24",
     "new_key_count": 1140,
+    "total_keys": 31789,
     "new_keys_in_last_14_days": 12520,
-    "non_expired_keys": 7520
+    "non_expired_keys": 6620
   },
   {
     "date": "2020-07-25",
     "new_key_count": 740,
+    "total_keys": 32529,
     "new_keys_in_last_14_days": 12250,
-    "non_expired_keys": 7360
+    "non_expired_keys": 6465
   },
   {
     "date": "2020-07-26",
     "new_key_count": 825,
+    "total_keys": 33354,
     "new_keys_in_last_14_days": 12875,
-    "non_expired_keys": 7290
+    "non_expired_keys": 6385
   },
   {
     "date": "2020-07-27",
     "new_key_count": 595,
+    "total_keys": 33949,
     "new_keys_in_last_14_days": 13030,
-    "non_expired_keys": 6980
+    "non_expired_keys": 6005
   },
   {
     "date": "2020-07-28",
     "new_key_count": 1790,
+    "total_keys": 35739,
     "new_keys_in_last_14_days": 13670,
-    "non_expired_keys": 7795
+    "non_expired_keys": 6905
   },
   {
     "date": "2020-07-29",
     "new_key_count": 2290,
+    "total_keys": 38029,
     "new_keys_in_last_14_days": 14740,
-    "non_expired_keys": 9195
+    "non_expired_keys": 8235
   },
   {
     "date": "2020-07-30",
     "new_key_count": 2520,
+    "total_keys": 40549,
     "new_keys_in_last_14_days": 16025,
-    "non_expired_keys": 10755
+    "non_expired_keys": 9715
   },
   {
     "date": "2020-07-31",
     "new_key_count": 1575,
+    "total_keys": 42124,
     "new_keys_in_last_14_days": 16345,
-    "non_expired_keys": 11290
+    "non_expired_keys": 10150
   },
   {
     "date": "2020-08-01",
     "new_key_count": 1405,
+    "total_keys": 43529,
     "new_keys_in_last_14_days": 16715,
-    "non_expired_keys": 11555
+    "non_expired_keys": 10410
   },
   {
     "date": "2020-08-02",
     "new_key_count": 1385,
+    "total_keys": 44914,
     "new_keys_in_last_14_days": 17755,
-    "non_expired_keys": 11795
+    "non_expired_keys": 10590
   },
   {
     "date": "2020-08-03",
     "new_key_count": 1645,
+    "total_keys": 46559,
     "new_keys_in_last_14_days": 18840,
-    "non_expired_keys": 12235
+    "non_expired_keys": 10955
   },
   {
     "date": "2020-08-04",
     "new_key_count": 2813,
+    "total_keys": 49372,
     "new_keys_in_last_14_days": 20818,
-    "non_expired_keys": 13768
+    "non_expired_keys": 12428
   },
   {
     "date": "2020-08-05",
     "new_key_count": 2415,
+    "total_keys": 51787,
     "new_keys_in_last_14_days": 22513,
-    "non_expired_keys": 14843
+    "non_expired_keys": 13358
   },
   {
     "date": "2020-08-06",
     "new_key_count": 3050,
+    "total_keys": 54837,
     "new_keys_in_last_14_days": 24188,
-    "non_expired_keys": 16408
+    "non_expired_keys": 14833
   },
   {
     "date": "2020-08-07",
     "new_key_count": 2210,
+    "total_keys": 57047,
     "new_keys_in_last_14_days": 25258,
-    "non_expired_keys": 17043
+    "non_expired_keys": 15273
   },
   {
     "date": "2020-08-08",
     "new_key_count": 1655,
+    "total_keys": 58702,
     "new_keys_in_last_14_days": 26173,
-    "non_expired_keys": 16928
+    "non_expired_keys": 15053
   },
   {
     "date": "2020-08-09",
     "new_key_count": 565,
+    "total_keys": 59267,
     "new_keys_in_last_14_days": 25913,
-    "non_expired_keys": 15618
+    "non_expired_keys": 13678
   },
   {
     "date": "2020-08-10",
     "new_key_count": 2380,
+    "total_keys": 61647,
     "new_keys_in_last_14_days": 27698,
-    "non_expired_keys": 16058
+    "non_expired_keys": 14114
   },
   {
     "date": "2020-08-11",
     "new_key_count": 2285,
+    "total_keys": 63932,
     "new_keys_in_last_14_days": 28193,
-    "non_expired_keys": 16399
+    "non_expired_keys": 14380
   },
   {
     "date": "2020-08-12",
     "new_key_count": 3800,
+    "total_keys": 67732,
     "new_keys_in_last_14_days": 29703,
-    "non_expired_keys": 18180
+    "non_expired_keys": 16186
   },
   {
     "date": "2020-08-13",
     "new_key_count": 3940,
+    "total_keys": 71672,
     "new_keys_in_last_14_days": 31123,
-    "non_expired_keys": 20126
+    "non_expired_keys": 18037
   },
   {
     "date": "2020-08-14",
     "new_key_count": 3020,
+    "total_keys": 74692,
     "new_keys_in_last_14_days": 32568,
-    "non_expired_keys": 21057
+    "non_expired_keys": 18788
   },
   {
     "date": "2020-08-15",
     "new_key_count": 2675,
+    "total_keys": 77367,
     "new_keys_in_last_14_days": 33838,
-    "non_expired_keys": 21463
+    "non_expired_keys": 19124
   },
   {
     "date": "2020-08-16",
     "new_key_count": 1790,
+    "total_keys": 79157,
     "new_keys_in_last_14_days": 34243,
-    "non_expired_keys": 20914
+    "non_expired_keys": 18475
   },
   {
     "date": "2020-08-17",
     "new_key_count": 2785,
+    "total_keys": 81942,
     "new_keys_in_last_14_days": 35383,
-    "non_expired_keys": 21260
+    "non_expired_keys": 18775
   },
   {
     "date": "2020-08-18",
     "new_key_count": 3749,
+    "total_keys": 85691,
     "new_keys_in_last_14_days": 36319,
-    "non_expired_keys": 22524
+    "non_expired_keys": 20024
   },
   {
     "date": "2020-08-19",
     "new_key_count": 3970,
+    "total_keys": 89661,
     "new_keys_in_last_14_days": 37874,
-    "non_expired_keys": 23994
+    "non_expired_keys": 21409
   },
   {
     "date": "2020-08-20",
     "new_key_count": 4740,
+    "total_keys": 94401,
     "new_keys_in_last_14_days": 39564,
-    "non_expired_keys": 26149
+    "non_expired_keys": 23539
   },
   {
     "date": "2020-08-21",
     "new_key_count": 3550,
+    "total_keys": 97951,
     "new_keys_in_last_14_days": 40904,
-    "non_expired_keys": 27089
+    "non_expired_keys": 24284
   },
   {
     "date": "2020-08-22",
     "new_key_count": 3393,
+    "total_keys": 101344,
     "new_keys_in_last_14_days": 42642,
-    "non_expired_keys": 27677
+    "non_expired_keys": 24742
   },
   {
     "date": "2020-08-23",
     "new_key_count": 2535,
+    "total_keys": 103879,
     "new_keys_in_last_14_days": 44612,
-    "non_expired_keys": 27277
+    "non_expired_keys": 24118
   },
   {
     "date": "2020-08-24",
     "new_key_count": 3165,
+    "total_keys": 107044,
     "new_keys_in_last_14_days": 45397,
-    "non_expired_keys": 27283
+    "non_expired_keys": 24175
   },
   {
     "date": "2020-08-25",
     "new_key_count": 4156,
+    "total_keys": 111200,
     "new_keys_in_last_14_days": 47268,
-    "non_expired_keys": 28331
+    "non_expired_keys": 25112
   },
   {
     "date": "2020-08-26",
     "new_key_count": 4410,
+    "total_keys": 115610,
     "new_keys_in_last_14_days": 47878,
-    "non_expired_keys": 29522
+    "non_expired_keys": 26223
   },
   {
     "date": "2020-08-27",
     "new_key_count": 5435,
+    "total_keys": 121045,
     "new_keys_in_last_14_days": 49373,
-    "non_expired_keys": 31658
+    "non_expired_keys": 28365
   },
   {
     "date": "2020-08-28",
     "new_key_count": 5310,
+    "total_keys": 126355,
     "new_keys_in_last_14_days": 51663,
-    "non_expired_keys": 33675
+    "non_expired_keys": 30133
   },
   {
     "date": "2020-08-29",
     "new_key_count": 3339,
+    "total_keys": 129694,
     "new_keys_in_last_14_days": 52327,
-    "non_expired_keys": 33472
+    "non_expired_keys": 29739
   },
   {
     "date": "2020-08-30",
     "new_key_count": 2245,
+    "total_keys": 131939,
     "new_keys_in_last_14_days": 52782,
-    "non_expired_keys": 31984
+    "non_expired_keys": 28026
   },
   {
     "date": "2020-08-31",
     "new_key_count": 3000,
+    "total_keys": 134939,
     "new_keys_in_last_14_days": 52997,
-    "non_expired_keys": 31026
+    "non_expired_keys": 27074
   },
   {
     "date": "2020-09-01",
     "new_key_count": 4835,
+    "total_keys": 139774,
     "new_keys_in_last_14_days": 54083,
-    "non_expired_keys": 31909
+    "non_expired_keys": 28025
   },
   {
     "date": "2020-09-02",
     "new_key_count": 6095,
+    "total_keys": 145869,
     "new_keys_in_last_14_days": 56208,
-    "non_expired_keys": 34120
+    "non_expired_keys": 30240
   },
   {
     "date": "2020-09-03",
     "new_key_count": 6685,
+    "total_keys": 152554,
     "new_keys_in_last_14_days": 58153,
-    "non_expired_keys": 36925
+    "non_expired_keys": 32980
   },
   {
     "date": "2020-09-04",
     "new_key_count": 6285,
+    "total_keys": 158839,
     "new_keys_in_last_14_days": 60888,
-    "non_expired_keys": 39265
+    "non_expired_keys": 35060
   },
   {
     "date": "2020-09-05",
     "new_key_count": 4460,
+    "total_keys": 163299,
     "new_keys_in_last_14_days": 61955,
-    "non_expired_keys": 39520
+    "non_expired_keys": 35125
   },
   {
     "date": "2020-09-06",
     "new_key_count": 2158,
+    "total_keys": 165457,
     "new_keys_in_last_14_days": 61578,
-    "non_expired_keys": 37283
+    "non_expired_keys": 32743
   },
   {
     "date": "2020-09-07",
     "new_key_count": 4630,
+    "total_keys": 170087,
     "new_keys_in_last_14_days": 63043,
-    "non_expired_keys": 37373
+    "non_expired_keys": 32853
   },
   {
     "date": "2020-09-08",
     "new_key_count": 4932,
+    "total_keys": 175019,
     "new_keys_in_last_14_days": 63819,
-    "non_expired_keys": 37785
+    "non_expired_keys": 33301
   },
   {
     "date": "2020-09-09",
     "new_key_count": 6885,
+    "total_keys": 181904,
     "new_keys_in_last_14_days": 66294,
-    "non_expired_keys": 40186
+    "non_expired_keys": 35618
   },
   {
     "date": "2020-09-10",
     "new_key_count": 7395,
+    "total_keys": 189299,
     "new_keys_in_last_14_days": 68254,
-    "non_expired_keys": 43013
+    "non_expired_keys": 38354
   },
   {
     "date": "2020-09-11",
     "new_key_count": 7762,
+    "total_keys": 197061,
     "new_keys_in_last_14_days": 70706,
-    "non_expired_keys": 46116
+    "non_expired_keys": 41316
   },
   {
     "date": "2020-09-12",
     "new_key_count": 5310,
+    "total_keys": 202371,
     "new_keys_in_last_14_days": 72677,
-    "non_expired_keys": 46626
+    "non_expired_keys": 41527
   },
   {
     "date": "2020-09-13",
     "new_key_count": 4977,
+    "total_keys": 207348,
     "new_keys_in_last_14_days": 75409,
-    "non_expired_keys": 46504
+    "non_expired_keys": 41080
   },
   {
     "date": "2020-09-14",
     "new_key_count": 5655,
+    "total_keys": 213003,
     "new_keys_in_last_14_days": 78064,
-    "non_expired_keys": 46735
+    "non_expired_keys": 41144
   },
   {
     "date": "2020-09-15",
     "new_key_count": 9548,
+    "total_keys": 222551,
     "new_keys_in_last_14_days": 82777,
-    "non_expired_keys": 50692
+    "non_expired_keys": 45055
   },
   {
     "date": "2020-09-16",
     "new_key_count": 10235,
+    "total_keys": 232786,
     "new_keys_in_last_14_days": 86917,
-    "non_expired_keys": 55290
+    "non_expired_keys": 49418
   },
   {
     "date": "2020-09-17",
     "new_key_count": 11165,
+    "total_keys": 243951,
     "new_keys_in_last_14_days": 91397,
-    "non_expired_keys": 60583
+    "non_expired_keys": 54445
   },
   {
     "date": "2020-09-18",
     "new_key_count": 10369,
+    "total_keys": 254320,
     "new_keys_in_last_14_days": 95481,
-    "non_expired_keys": 64814
+    "non_expired_keys": 58356
   },
   {
     "date": "2020-09-19",
     "new_key_count": 5290,
+    "total_keys": 259610,
     "new_keys_in_last_14_days": 96311,
-    "non_expired_keys": 63646
+    "non_expired_keys": 56764
   },
   {
     "date": "2020-09-20",
     "new_key_count": 3250,
+    "total_keys": 262860,
     "new_keys_in_last_14_days": 97403,
-    "non_expired_keys": 60014
+    "non_expired_keys": 52842
   },
   {
     "date": "2020-09-21",
     "new_key_count": 8390,
+    "total_keys": 271250,
     "new_keys_in_last_14_days": 101163,
-    "non_expired_keys": 61232
+    "non_expired_keys": 54160
   },
   {
     "date": "2020-09-22",
     "new_key_count": 9405,
+    "total_keys": 280655,
     "new_keys_in_last_14_days": 105636,
-    "non_expired_keys": 63565
+    "non_expired_keys": 56191
   },
   {
     "date": "2020-09-23",
     "new_key_count": 13539,
+    "total_keys": 294194,
     "new_keys_in_last_14_days": 112290,
-    "non_expired_keys": 69730
+    "non_expired_keys": 62186
   },
   {
     "date": "2020-09-24",
     "new_key_count": 12229,
+    "total_keys": 306423,
     "new_keys_in_last_14_days": 117124,
-    "non_expired_keys": 74415
+    "non_expired_keys": 66428
   },
   {
     "date": "2020-09-25",
     "new_key_count": 12457,
+    "total_keys": 318880,
     "new_keys_in_last_14_days": 121819,
-    "non_expired_keys": 78885
+    "non_expired_keys": 70546
   },
   {
     "date": "2020-09-26",
     "new_key_count": 9593,
+    "total_keys": 328473,
     "new_keys_in_last_14_days": 126102,
-    "non_expired_keys": 80139
+    "non_expired_keys": 71302
   },
   {
     "date": "2020-09-27",
     "new_key_count": 6071,
+    "total_keys": 334544,
     "new_keys_in_last_14_days": 127196,
-    "non_expired_keys": 77373
+    "non_expired_keys": 68191
   },
   {
     "date": "2020-09-28",
     "new_key_count": 8430,
+    "total_keys": 342974,
     "new_keys_in_last_14_days": 129971,
-    "non_expired_keys": 76621
+    "non_expired_keys": 67285
   },
   {
     "date": "2020-09-29",
     "new_key_count": 12700,
+    "total_keys": 355674,
     "new_keys_in_last_14_days": 133123,
-    "non_expired_keys": 79985
+    "non_expired_keys": 70799
   },
   {
     "date": "2020-09-30",
     "new_key_count": 12850,
+    "total_keys": 368524,
     "new_keys_in_last_14_days": 135738,
-    "non_expired_keys": 83649
+    "non_expired_keys": 74276
   },
   {
     "date": "2020-10-01",
     "new_key_count": 14299,
+    "total_keys": 382823,
     "new_keys_in_last_14_days": 138872,
-    "non_expired_keys": 88575
+    "non_expired_keys": 79147
+  },
+  {
+    "date": "2020-10-02",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 128503,
+    "non_expired_keys": 69524
+  },
+  {
+    "date": "2020-10-03",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 123213,
+    "non_expired_keys": 60306
+  },
+  {
+    "date": "2020-10-04",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 119963,
+    "non_expired_keys": 51208
+  },
+  {
+    "date": "2020-10-05",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 111573,
+    "non_expired_keys": 42730
+  },
+  {
+    "date": "2020-10-06",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 102168,
+    "non_expired_keys": 34858
+  },
+  {
+    "date": "2020-10-07",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 88629,
+    "non_expired_keys": 28024
+  },
+  {
+    "date": "2020-10-08",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 76400,
+    "non_expired_keys": 22029
+  },
+  {
+    "date": "2020-10-09",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 63943,
+    "non_expired_keys": 16974
+  },
+  {
+    "date": "2020-10-10",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 54350,
+    "non_expired_keys": 12399
+  },
+  {
+    "date": "2020-10-11",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 48279,
+    "non_expired_keys": 8409
+  },
+  {
+    "date": "2020-10-12",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 39849,
+    "non_expired_keys": 4699
+  },
+  {
+    "date": "2020-10-13",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 27149,
+    "non_expired_keys": 1799
+  },
+  {
+    "date": "2020-10-14",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 14299,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-15",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-16",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-17",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-18",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-19",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-20",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-21",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-22",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-23",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-24",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-25",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-26",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-27",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-28",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-29",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-30",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-10-31",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-01",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-02",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-03",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-04",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-05",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-06",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-07",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-08",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-09",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-10",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-11",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-12",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-13",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-14",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-15",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-16",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-17",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-18",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-19",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-20",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-21",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-22",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-23",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-24",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-25",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-26",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-27",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-28",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-29",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-11-30",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-01",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-02",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-03",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-04",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-05",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-06",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-07",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-08",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-09",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-10",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-11",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-12",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-13",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-14",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-15",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-16",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-17",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-18",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-19",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-20",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-21",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-22",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-23",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-24",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-25",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-26",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-27",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-28",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-29",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-30",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2020-12-31",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
+  },
+  {
+    "date": "2021-01-01",
+    "new_key_count": 0,
+    "total_keys": 382823,
+    "new_keys_in_last_14_days": 0,
+    "non_expired_keys": 0
   }
 ]

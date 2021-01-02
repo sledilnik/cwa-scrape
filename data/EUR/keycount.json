@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2020-12-19",
+    "new_key_count": 1119,
+    "total_keys": 1119,
+    "new_keys_in_last_14_days": 1119,
+    "non_expired_keys": 1119
+  },
+  {
+    "date": "2020-12-20",
+    "new_key_count": 519,
+    "total_keys": 1638,
+    "new_keys_in_last_14_days": 1638,
+    "non_expired_keys": 1560
+  },
+  {
+    "date": "2020-12-21",
+    "new_key_count": 1068,
+    "total_keys": 2706,
+    "new_keys_in_last_14_days": 2706,
+    "non_expired_keys": 2515
+  },
+  {
+    "date": "2020-12-22",
+    "new_key_count": 2096,
+    "total_keys": 4802,
+    "new_keys_in_last_14_days": 4802,
+    "non_expired_keys": 4432
+  },
+  {
+    "date": "2020-12-23",
+    "new_key_count": 2371,
+    "total_keys": 7173,
+    "new_keys_in_last_14_days": 7173,
+    "non_expired_keys": 6490
+  },
+  {
+    "date": "2020-12-24",
+    "new_key_count": 1586,
+    "total_keys": 8759,
+    "new_keys_in_last_14_days": 8759,
+    "non_expired_keys": 7612
+  },
+  {
+    "date": "2020-12-25",
+    "new_key_count": 594,
+    "total_keys": 9353,
+    "new_keys_in_last_14_days": 9353,
+    "non_expired_keys": 7651
+  },
+  {
+    "date": "2020-12-26",
+    "new_key_count": 783,
+    "total_keys": 10136,
+    "new_keys_in_last_14_days": 10136,
+    "non_expired_keys": 7842
+  },
+  {
+    "date": "2020-12-27",
+    "new_key_count": 876,
+    "total_keys": 11012,
+    "new_keys_in_last_14_days": 11012,
+    "non_expired_keys": 8061
+  },
+  {
+    "date": "2020-12-28",
+    "new_key_count": 1897,
+    "total_keys": 12909,
+    "new_keys_in_last_14_days": 12909,
+    "non_expired_keys": 9133
+  },
+  {
+    "date": "2020-12-29",
+    "new_key_count": 2744,
+    "total_keys": 15653,
+    "new_keys_in_last_14_days": 15653,
+    "non_expired_keys": 10865
+  },
+  {
+    "date": "2020-12-30",
+    "new_key_count": 2900,
+    "total_keys": 18553,
+    "new_keys_in_last_14_days": 18553,
+    "non_expired_keys": 12543
+  },
+  {
+    "date": "2020-12-31",
+    "new_key_count": 2370,
+    "total_keys": 20923,
+    "new_keys_in_last_14_days": 20923,
+    "non_expired_keys": 13457
+  },
+  {
+    "date": "2021-01-01",
+    "new_key_count": 422,
+    "total_keys": 21345,
+    "new_keys_in_last_14_days": 21345,
+    "non_expired_keys": 12223
+  }
+]
