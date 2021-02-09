@@ -42,6 +42,8 @@ type ExposureNotificationExportKey struct {
 	TransmissionRiskLevel      int    `json:"transmission_risk_level"`
 	RollingStartIntervalNumber int    `json:"rolling_start_interval_number"`
 	RollingPeriod              int    `json:"rolling_period"`
+	ReportType                 int    `json:"report_type"`
+	DaysSinceOnsetOfSymptoms   int    `json:"days_since_onset_of_symptoms"`
 }
 
 type DailyKeyCount struct {
