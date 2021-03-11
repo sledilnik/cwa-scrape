@@ -25,6 +25,6 @@ do
         fi;
     done
 
-    wget "${BASEURL}configuration/country/${COUNTRY}/app_config" -O "data/${COUNTRY}/app_config.zip"
+    wget "${BASEURL}configuration/country/${COUNTRY}/app_config" -O "data/${COUNTRY}/app_config.zip" || true
 
 done
