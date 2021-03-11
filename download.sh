@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 BASEURL="$1"
 EARLYDATE=$(date --date="-3 days" --iso-8601 2>&- || gdate --date="-3 days" --iso-8601)
