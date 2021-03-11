@@ -61,3 +61,4 @@ jobs:
         rebase: 'true' # pull abd rebase before commit
         files: data/
         name: Corona Warn scrape bot 🤖
+        email: info@sledilnik.org
