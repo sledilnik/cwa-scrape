@@ -9,7 +9,7 @@ analyze:
 	go install github.com/google/exposure-notifications-server/tools/export-analyzer
 
 
-	for COUNTRY in $(shell ls -d data/) ; do \
+	for COUNTRY in $(shell find data -type d -maxdepth 1 -regex 'data/[A-Z]*' -execdir echo {} ';') ; do \
 		echo "Analyzing data for country: $$COUNTRY" ;\
 		for file in $$(ls data/$$COUNTRY/????-??-??.zip); do \
 			BASENAME=$$(basename $$file .zip);\
