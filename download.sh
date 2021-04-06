@@ -24,7 +24,7 @@ do
             done
         fi;
     done
-
-    wget "${BASEURL}configuration/country/${COUNTRY}/app_config" -O "data/${COUNTRY}/app_config.zip" || true
-
 done
+
+wget "${BASEURL}app_config_android" -O "data/app_config_android.zip"
+wget "${BASEURL}app_config_ios"  -O "data/app_config_ios.zip"
