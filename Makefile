@@ -21,4 +21,5 @@ analyze:
 	done;
 
 appconfig:
+	ls -la *.sh
 	./check-app-config.sh $(BASEURL)
