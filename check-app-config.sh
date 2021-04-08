@@ -3,6 +3,8 @@ set -e
 
 BASEURL="$1"
 
+Echo "Checking app configs from ${BASEURL}..."
+
 wget "${BASEURL}app_config_android" -O "data/app_config_android.zip"
 wget "${BASEURL}app_config_ios"  -O "data/app_config_ios.zip"
 
