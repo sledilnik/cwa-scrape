@@ -1,0 +1,150 @@
+minVersionCode: 31
+latestVersionCode: 31
+appFeatures {
+  appFeatures {
+    label: "reserved"
+    value: 1
+  }
+}
+supportedCountries: "DE"
+supportedCountries: "IE"
+supportedCountries: "IT"
+supportedCountries: "LT"
+supportedCountries: "ES"
+supportedCountries: "DK"
+supportedCountries: "HR"
+supportedCountries: "PL"
+supportedCountries: "NL"
+supportedCountries: "BE"
+supportedCountries: "SI"
+supportedCountries: "AT"
+supportedCountries: "FI"
+keyDownloadParameters {
+  downloadTimeoutInSeconds: 60
+  overallTimeoutInSeconds: 480
+}
+exposureDetectionParameters {
+  maxExposureDetectionsPerInterval: 6
+  overallTimeoutInSeconds: 900
+}
+riskCalculationParameters {
+  minutesAtAttenuationFilters {
+    attenuationRange {
+      max: 79
+      maxExclusive: true
+    }
+    dropIfMinutesInRange {
+      max: 5
+      maxExclusive: true
+    }
+  }
+  trlFilters {
+    dropIfTrlInRange {
+      min: 1
+      max: 2
+    }
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      max: 63
+      maxExclusive: true
+    }
+    weight: 1
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      min: 63
+      max: 73
+      maxExclusive: true
+    }
+    weight: 1
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      min: 73
+      max: 79
+      maxExclusive: true
+    }
+    weight: 0.1
+  }
+  normalizedTimePerEWToRiskLevelMapping {
+    normalizedTimeRange {
+      max: 13
+      maxExclusive: true
+    }
+    riskLevel: LOW
+  }
+  normalizedTimePerEWToRiskLevelMapping {
+    normalizedTimeRange {
+      min: 13
+      max: 9999
+    }
+    riskLevel: HIGH
+  }
+  normalizedTimePerDayToRiskLevelMapping {
+    normalizedTimeRange {
+      max: 13
+      maxExclusive: true
+    }
+    riskLevel: LOW
+  }
+  normalizedTimePerDayToRiskLevelMapping {
+    normalizedTimeRange {
+      min: 13
+      max: 99999
+    }
+    riskLevel: HIGH
+  }
+  trlEncoding {
+    infectiousnessOffsetStandard: 1
+    infectiousnessOffsetHigh: 2
+    reportTypeOffsetSelfReport: 2
+    reportTypeOffsetConfirmedClinicalDiagnosis: 4
+    reportTypeOffsetConfirmedTest: 6
+  }
+  transmissionRiskLevelMultiplier: 0.2
+}
+diagnosisKeysDataMapping {
+  daysSinceOnsetToInfectiousness {
+    key: 1
+    value: 1
+  }
+  daysSinceOnsetToInfectiousness {
+    key: 2
+    value: 2
+  }
+  reportTypeWhenMissing: 1
+}
+dailySummariesConfig {
+  attenuationBucketThresholdDb: 30
+  attenuationBucketThresholdDb: 50
+  attenuationBucketThresholdDb: 70
+  attenuationBucketWeights: 1
+  attenuationBucketWeights: 1
+  attenuationBucketWeights: 1
+  attenuationBucketWeights: 1
+  infectiousnessWeights {
+    key: 1
+    value: 1
+  }
+  infectiousnessWeights {
+    key: 2
+    value: 1
+  }
+  reportTypeWeights {
+    key: 1
+    value: 1
+  }
+  reportTypeWeights {
+    key: 2
+    value: 1
+  }
+  reportTypeWeights {
+    key: 3
+    value: 1
+  }
+  reportTypeWeights {
+    key: 4
+    value: 1
+  }
+}

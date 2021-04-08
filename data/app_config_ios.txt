@@ -1,0 +1,131 @@
+minVersion {
+  minor: 5
+}
+latestVersion {
+  minor: 8
+  patch: 2
+}
+appFeatures {
+  appFeatures {
+    label: "reserved"
+    value: 1
+  }
+}
+supportedCountries: "DE"
+supportedCountries: "IE"
+supportedCountries: "IT"
+supportedCountries: "LT"
+supportedCountries: "ES"
+supportedCountries: "DK"
+supportedCountries: "HR"
+supportedCountries: "PL"
+supportedCountries: "NL"
+supportedCountries: "BE"
+supportedCountries: "SI"
+supportedCountries: "AT"
+supportedCountries: "FI"
+keyDownloadParameters {
+}
+exposureDetectionParameters {
+  maxExposureDetectionsPerInterval: 6
+}
+riskCalculationParameters {
+  minutesAtAttenuationFilters {
+    attenuationRange {
+      max: 79
+      maxExclusive: true
+    }
+    dropIfMinutesInRange {
+      max: 5
+      maxExclusive: true
+    }
+  }
+  trlFilters {
+    dropIfTrlInRange {
+      min: 1
+      max: 2
+    }
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      max: 63
+      maxExclusive: true
+    }
+    weight: 1
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      min: 63
+      max: 73
+      maxExclusive: true
+    }
+    weight: 1
+  }
+  minutesAtAttenuationWeights {
+    attenuationRange {
+      min: 73
+      max: 79
+      maxExclusive: true
+    }
+    weight: 0.1
+  }
+  normalizedTimePerEWToRiskLevelMapping {
+    normalizedTimeRange {
+      max: 13
+      maxExclusive: true
+    }
+    riskLevel: LOW
+  }
+  normalizedTimePerEWToRiskLevelMapping {
+    normalizedTimeRange {
+      min: 13
+      max: 9999
+    }
+    riskLevel: HIGH
+  }
+  normalizedTimePerDayToRiskLevelMapping {
+    normalizedTimeRange {
+      max: 13
+      maxExclusive: true
+    }
+    riskLevel: LOW
+  }
+  normalizedTimePerDayToRiskLevelMapping {
+    normalizedTimeRange {
+      min: 13
+      max: 99999
+    }
+    riskLevel: HIGH
+  }
+  trlEncoding {
+    infectiousnessOffsetStandard: 1
+    infectiousnessOffsetHigh: 2
+    reportTypeOffsetSelfReport: 2
+    reportTypeOffsetConfirmedClinicalDiagnosis: 4
+    reportTypeOffsetConfirmedTest: 6
+  }
+  transmissionRiskLevelMultiplier: 0.2
+}
+exposureConfiguration {
+  infectiousnessForDaysSinceOnsetOfSymptoms {
+    key: 1
+    value: 1
+  }
+  infectiousnessForDaysSinceOnsetOfSymptoms {
+    key: 2
+    value: 2
+  }
+  attenuationDurationThresholds: 30
+  attenuationDurationThresholds: 50
+  attenuationDurationThresholds: 70
+  immediateDurationWeight: 1
+  mediumDurationWeight: 1
+  nearDurationWeight: 1
+  otherDurationWeight: 1
+  infectiousnessStandardWeight: 1
+  infectiousnessHighWeight: 1
+  reportTypeConfirmedTestWeight: 1
+  reportTypeConfirmedClinicalDiagnosisWeight: 1
+  reportTypeSelfReportedWeight: 1
+  reportTypeRecursiveWeight: 1
+}
