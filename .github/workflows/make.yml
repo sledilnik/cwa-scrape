@@ -34,10 +34,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Install jq
+    - name: Install jq and protoc
       run: |
-        sudo apt-get install jq
+        sudo apt-get install jq protobuf-compiler
         jq --version
+        protoc --version
 
     # Runs a single command using the runners shell
     - name: Run make
