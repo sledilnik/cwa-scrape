@@ -25,6 +25,3 @@ do
         fi;
     done
 done
-
-wget "${BASEURL}app_config_android" -O "data/app_config_android.zip"
-wget "${BASEURL}app_config_ios"  -O "data/app_config_ios.zip"

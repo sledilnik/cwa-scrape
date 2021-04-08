@@ -1,6 +1,6 @@
 BASEURL = https://svc90.cwa.gov.si/version/v1/
 
-all: download analyze
+all: download analyze appconfig
 
 download:
 	./download.sh $(BASEURL)
@@ -20,3 +20,5 @@ analyze:
 		go run export-aggregate.go chart.go --path=data/$$COUNTRY --country=$$COUNTRY ;\
 	done;
 
+appconfig:
+	./check-app-config.sh $(BASEURL)
