@@ -25,10 +25,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Set up Go 1.15
+    - name: Set up Go 1.16
       uses: actions/setup-go@v2
       with:
-        go-version: 1.15.1
+        go-version: 1.16
       id: go
 
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
