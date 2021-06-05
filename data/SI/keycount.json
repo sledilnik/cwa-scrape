@@ -1965,5 +1965,12 @@
     "total_keys": 2482783,
     "new_keys_in_last_14_days": 73274,
     "non_expired_keys": 37328
+  },
+  {
+    "date": "2021-06-04",
+    "new_key_count": 4493,
+    "total_keys": 2487276,
+    "new_keys_in_last_14_days": 65737,
+    "non_expired_keys": 35407
   }
 ]
