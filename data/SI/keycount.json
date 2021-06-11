@@ -2007,5 +2007,12 @@
     "total_keys": 2504491,
     "new_keys_in_last_14_days": 49329,
     "non_expired_keys": 26713
+  },
+  {
+    "date": "2021-06-10",
+    "new_key_count": 3203,
+    "total_keys": 2507694,
+    "new_keys_in_last_14_days": 44187,
+    "non_expired_keys": 25633
   }
 ]
