@@ -10,7 +10,7 @@ After scraping all the data, it aggregates some statistics into [keycount.csv](d
 
 ## Requirements
 
-GNU Make, [Go](https://golang.org) 1.16 or later, [jq](https://stedolan.github.io/jq/) 1.6 or later.
+GNU Make, [Go](https://golang.org) 1.17 or later, [jq](https://stedolan.github.io/jq/) 1.6 or later.
 
 ```bash
 $ sudo apt install golang jq
