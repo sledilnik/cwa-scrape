@@ -1993,5 +1993,12 @@
     "total_keys": 3587599,
     "new_keys_in_last_14_days": 124547,
     "non_expired_keys": 75964
+  },
+  {
+    "date": "2021-09-30",
+    "new_key_count": 10214,
+    "total_keys": 3597813,
+    "new_keys_in_last_14_days": 125321,
+    "non_expired_keys": 77034
   }
 ]
