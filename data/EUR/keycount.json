@@ -2504,5 +2504,12 @@
     "total_keys": 7219886,
     "new_keys_in_last_14_days": 1162413,
     "non_expired_keys": 687702
+  },
+  {
+    "date": "2021-12-12",
+    "new_key_count": 40969,
+    "total_keys": 7260855,
+    "new_keys_in_last_14_days": 1153632,
+    "non_expired_keys": 649973
   }
 ]
