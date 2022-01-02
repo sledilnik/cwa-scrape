@@ -3442,5 +3442,12 @@
     "total_keys": 7474833,
     "new_keys_in_last_14_days": 794125,
     "non_expired_keys": 511590
+  },
+  {
+    "date": "2022-01-01",
+    "new_key_count": 1690,
+    "total_keys": 7476523,
+    "new_keys_in_last_14_days": 748715,
+    "non_expired_keys": 459563
   }
 ]
