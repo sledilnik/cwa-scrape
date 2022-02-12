@@ -2927,9 +2927,16 @@
   },
   {
     "date": "2022-02-10",
-    "new_key_count": 0,
-    "total_keys": 18171726,
-    "new_keys_in_last_14_days": 3608111,
-    "non_expired_keys": 1872575
+    "new_key_count": 510769,
+    "total_keys": 18682495,
+    "new_keys_in_last_14_days": 4118880,
+    "non_expired_keys": 2371080
+  },
+  {
+    "date": "2022-02-11",
+    "new_key_count": 8553,
+    "total_keys": 18691048,
+    "new_keys_in_last_14_days": 3727499,
+    "non_expired_keys": 2089505
   }
 ]
