@@ -3718,65 +3718,65 @@
   },
   {
     "date": "2022-02-09",
-    "new_key_count": 0,
-    "total_keys": 14871668,
-    "new_keys_in_last_14_days": 2951861,
-    "non_expired_keys": 1742347
+    "new_key_count": 596938,
+    "total_keys": 15468606,
+    "new_keys_in_last_14_days": 3548799,
+    "non_expired_keys": 2321321
   },
   {
     "date": "2022-02-10",
     "new_key_count": 417112,
-    "total_keys": 15288780,
-    "new_keys_in_last_14_days": 3353504,
-    "non_expired_keys": 1945792
+    "total_keys": 15885718,
+    "new_keys_in_last_14_days": 3950442,
+    "non_expired_keys": 2490354
   },
   {
     "date": "2022-02-11",
     "new_key_count": 8553,
-    "total_keys": 15297333,
-    "new_keys_in_last_14_days": 3027422,
-    "non_expired_keys": 1718773
+    "total_keys": 15894271,
+    "new_keys_in_last_14_days": 3624360,
+    "non_expired_keys": 2228559
   },
   {
     "date": "2022-02-12",
     "new_key_count": 296303,
-    "total_keys": 15593636,
-    "new_keys_in_last_14_days": 3310217,
-    "non_expired_keys": 1799177
+    "total_keys": 16190574,
+    "new_keys_in_last_14_days": 3907155,
+    "non_expired_keys": 2273941
   },
   {
     "date": "2022-02-13",
     "new_key_count": 170611,
-    "total_keys": 15764247,
-    "new_keys_in_last_14_days": 3294538,
-    "non_expired_keys": 1734970
+    "total_keys": 16361185,
+    "new_keys_in_last_14_days": 3891476,
+    "non_expired_keys": 2174464
   },
   {
     "date": "2022-02-14",
     "new_key_count": 3288,
-    "total_keys": 15767535,
-    "new_keys_in_last_14_days": 3072042,
-    "non_expired_keys": 1501823
+    "total_keys": 16364473,
+    "new_keys_in_last_14_days": 3668980,
+    "non_expired_keys": 1905333
   },
   {
     "date": "2022-02-15",
     "new_key_count": 451068,
-    "total_keys": 16218603,
-    "new_keys_in_last_14_days": 3119487,
-    "non_expired_keys": 1707984
+    "total_keys": 16815541,
+    "new_keys_in_last_14_days": 3716425,
+    "non_expired_keys": 2074635
   },
   {
     "date": "2022-02-16",
     "new_key_count": 407884,
-    "total_keys": 16626487,
-    "new_keys_in_last_14_days": 3118517,
-    "non_expired_keys": 1876210
+    "total_keys": 17223425,
+    "new_keys_in_last_14_days": 3715455,
+    "non_expired_keys": 2204823
   },
   {
     "date": "2022-02-17",
-    "new_key_count": 0,
-    "total_keys": 16626487,
-    "new_keys_in_last_14_days": 2752029,
-    "non_expired_keys": 1658802
+    "new_key_count": 373740,
+    "total_keys": 17597165,
+    "new_keys_in_last_14_days": 3722707,
+    "non_expired_keys": 2310631
   }
 ]
