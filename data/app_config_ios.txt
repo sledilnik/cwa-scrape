@@ -24,7 +24,6 @@ supportedCountries: "PL"
 supportedCountries: "NL"
 supportedCountries: "BE"
 supportedCountries: "SI"
-supportedCountries: "AT"
 supportedCountries: "FI"
 keyDownloadParameters {
 }
