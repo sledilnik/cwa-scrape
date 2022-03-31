@@ -3260,5 +3260,12 @@
     "total_keys": 30615333,
     "new_keys_in_last_14_days": 1954856,
     "non_expired_keys": 1097620
+  },
+  {
+    "date": "2022-03-30",
+    "new_key_count": 519540,
+    "total_keys": 31134873,
+    "new_keys_in_last_14_days": 2474396,
+    "non_expired_keys": 1470880
   }
 ]
