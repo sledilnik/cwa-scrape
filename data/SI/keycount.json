@@ -4093,5 +4093,75 @@
     "total_keys": 30805577,
     "new_keys_in_last_14_days": 3530834,
     "non_expired_keys": 2207058
+  },
+  {
+    "date": "2022-04-04",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 3162928,
+    "non_expired_keys": 1974000
+  },
+  {
+    "date": "2022-04-05",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 3162928,
+    "non_expired_keys": 1769537
+  },
+  {
+    "date": "2022-04-06",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 3162928,
+    "non_expired_keys": 1557375
+  },
+  {
+    "date": "2022-04-07",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 3151457,
+    "non_expired_keys": 1335282
+  },
+  {
+    "date": "2022-04-08",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 2618561,
+    "non_expired_keys": 1105857
+  },
+  {
+    "date": "2022-04-09",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 2602112,
+    "non_expired_keys": 922766
+  },
+  {
+    "date": "2022-04-10",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 2385881,
+    "non_expired_keys": 735429
+  },
+  {
+    "date": "2022-04-11",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 2324829,
+    "non_expired_keys": 557833
+  },
+  {
+    "date": "2022-04-12",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 1725748,
+    "non_expired_keys": 368619
+  },
+  {
+    "date": "2022-04-13",
+    "new_key_count": 0,
+    "total_keys": 30805577,
+    "new_keys_in_last_14_days": 1208407,
+    "non_expired_keys": 223038
   }
 ]
