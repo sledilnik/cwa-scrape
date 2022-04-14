@@ -1,6 +1,6 @@
 BASEURL = https://svc90.cwa.gov.si/version/v1/
 
-all: download analyze appconfig
+all: download analyze #appconfig
 
 download:
 	./download.sh $(BASEURL)
