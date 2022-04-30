@@ -58,7 +58,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run make
-      run: make
+      run: make download
 
     # Runs a set of commands using the runners shell
     - name: Check git diff
